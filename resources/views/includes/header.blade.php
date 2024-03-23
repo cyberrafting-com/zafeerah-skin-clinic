@@ -6,17 +6,17 @@
                 <div class="main-responsive-menu">
                     <div class="logo">
                         <a href="#">
-                            <img src="{{ asset('/resources/assets/images/logo2.png" class="logo1') }}" alt="logo">
-                            <img src="{{ asset('/resources/assets/images/logo.png" class="logo2') }}" alt="logo">
+                            <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}" alt="logo">
+                            {{-- <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}" alt="logo"> --}}
                         </a>
                     </div>
                     <div class="side-option-responsive">
-                        <a href="#" class="side-option-button">
+                        {{-- <a href="#" class="side-option-button">
 
                             <span class="dot1"></span>
                             <span class="dot2"></span>
                             <span class="dot3"></span>
-                        </a>
+                        </a> --}}
                         {{-- <div class="side-option-inner">
                             <div class="item">
                                 <div class="language">

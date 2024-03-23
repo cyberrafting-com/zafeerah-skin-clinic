@@ -140,9 +140,9 @@
                     Copyright @
                     <script>
                         document.write(new Date().getFullYear())
-                    </script> Wofy. Designed By
-                    <a href="https://hibootstrap.com/" target="_blank">
-                        HiBootstrap.com
+                    </script> 
+                    <a href="#" >
+                        Zaheerah Skin Clinic
                     </a>
                 </span>
             </div>

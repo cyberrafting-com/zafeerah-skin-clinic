@@ -315,8 +315,8 @@ p {
     line-height: 0;
     text-align: center;
     background: 0 0;
-    border: 1px solid #b4765a;
-    color: #b4765a;
+    border: 1px solid #ba6aaa;
+    color: #a3378d;
     padding: 8px;
     font-size: 15px;
     margin-right: 8px
@@ -1315,7 +1315,7 @@ textarea.form-control {
         margin-top: 56px
     }
     .main-navbar-area .main-responsive-nav .main-responsive-menu.mean-container .mean-nav .navbar-nav {
-        height: 300px;
+        height: 750px;
         overflow-y: scroll
     }
     .main-navbar-area .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul {
@@ -7907,7 +7907,7 @@ label {
 }
 
 .footer-area {
-    background-color: #333
+    background: linear-gradient(45deg, #5e228214, #dc79af61);
 }
 
 .footer-area ul {
@@ -7924,11 +7924,11 @@ label {
 .footer-area h3 {
     text-transform: capitalize;
     margin-bottom: 25px;
-    color: #fff
+    color: #25013a
 }
 
 .footer-area p {
-    color: #ccc;
+    color: #020202;
     margin-bottom: 20px
 }
 
@@ -7937,7 +7937,7 @@ label {
 }
 
 .footer-area .border-right {
-    border-right: 1px dashed rgba(180, 118, 90, .4) !important
+    border-right: 1px dashed rgb(220 121 175) !important
 }
 
 .footer-area .border-top {
@@ -7971,7 +7971,7 @@ label {
 }
 
 .footer-area .footer-links li a {
-    color: #ccc
+    color: #000;
 }
 
 .footer-area .footer-links li a:hover {
@@ -7981,11 +7981,11 @@ label {
 .footer-area .copy-right-area .copy-right-content {
     padding: 30px 0;
     text-align: center;
-    color: #b4765a
+    color: #a7447a
 }
 
 .footer-area .copy-right-area .copy-right-content a {
-    color: #fff
+    color: #000;
 }
 
 .footer-area.style-two {
@@ -8586,5 +8586,76 @@ ul.footer-links li a {
 
 .footer-ii {
     font-size: 25px;
-    color: white;
+    color: #444848;
+}
+
+.background-clip {
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+    z-index: -1;
+}
+
+.background-clip {
+    width: 100%;
+    height: auto;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    min-height: 793px;
+    display: inline-flex;
+    margin: auto;
+}
+
+.desk-video {
+    display: block;
+    width: 100%;
+}
+
+.mobile-video {
+    display: none;
+}
+
+.nav_position_one video {
+    /* width: 100%; */
+    filter: brightness(58%);
+}
+
+.content-overview {
+    text-align: center;
+    margin: auto;
+}
+
+.content-overview h1 {
+    font-size: 56px;
+    color: #ede3fb;
+    margin-top: 190px;
+    margin-bottom: 24px;
+    line-height: 77px;
+}
+
+.content-overview p {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    font-family: "Cormorant", serif;
+}
+
+.content-overview a {
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #6d388c;
+    padding: 12px 45px;
+    font-weight: 500;
+    border-radius: 50px;
+    background: aquamarine;
+    background: linear-gradient(78deg, rgb(94 34 130 / 47%) 0%, rgb(220 121 175 / 50%) 69%);
+}
+
+.main-nav {
+    background: linear-gradient(45deg, #fdfdfd7d, transparent);
 }
