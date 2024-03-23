@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Laravel - A PHP Framework For Web Artisans
+ * Laravel - new page A PHP Framework For Web Artisans
  *abc
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
