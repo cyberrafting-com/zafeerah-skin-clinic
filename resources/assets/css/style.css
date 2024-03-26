@@ -186,7 +186,7 @@ p {
     bottom: 0;
     width: 60%;
     height: 2px;
-    background: #b4765a
+    background: #99b94a
 }
 
 .section-title h2 span::before {
@@ -196,7 +196,7 @@ p {
     bottom: 0;
     width: 30%;
     height: 2px;
-    background: #b4765a
+    background: #99b94a
 }
 
 .section-title p {
@@ -228,21 +228,22 @@ p {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    background: #b4765a;
+    background: #2a011b;
     color: #fff;
     text-transform: capitalize;
-    font-size: 15px;
-    padding: 12px 30px;
+    font-size: 17px;
+    padding: 7px 30px;
     border-radius: 0;
     border: 1px solid transparent;
     -webkit-transition: .5s;
-    transition: .5s
+    transition: .5s;
+    border-radius: 4px;
 }
 
 .primary-btn:hover {
-    color: #b4765a;
+    color: #799732;
     background-color: transparent;
-    border-color: #b4765a
+    border-color: #8dab44;
 }
 
 .primary-btn.style-two {
@@ -767,14 +768,14 @@ textarea.form-control {
 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item a {
     position: relative;
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     padding: 0;
     text-transform: capitalize
 }
 
 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item a:hover {
-    color: #b4765a
+    color: #292828
 }
 
 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item a.active {
@@ -866,7 +867,7 @@ textarea.form-control {
 }
 
 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a:hover {
-    color: #b4765a;
+    color: #b73d7f;
     background-color: #f6f6f6
 }
 
@@ -890,7 +891,7 @@ textarea.form-control {
     transform: scaleY(0);
     -webkit-transition: .5s;
     transition: .5s;
-    background: #b4765a
+    background: #b73d7f
 }
 
 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a.active {
@@ -1714,7 +1715,7 @@ textarea.form-control {
 .about-section {
     position: relative;
     overflow: hidden;
-    background: #333;
+    background: #e9bed51c;
     z-index: 1
 }
 
@@ -1725,7 +1726,7 @@ textarea.form-control {
     top: 0;
     width: 30%;
     height: 100%;
-    background: #745547;
+    background: #2a011b;
     z-index: 0;
     z-index: -1
 }
@@ -1748,7 +1749,8 @@ textarea.form-control {
 }
 
 .about-section .bg-shape img:last-child {
-    z-index: -1
+    z-index: -1;
+    display: none;
 }
 
 .about-section .image img {
@@ -1763,7 +1765,7 @@ textarea.form-control {
 }
 
 .about-section .content .title {
-    color: #fff;
+    color: #2a292a;
     padding-bottom: 25px;
     margin-bottom: 25px;
     position: relative
@@ -1785,7 +1787,7 @@ textarea.form-control {
     bottom: 0;
     width: 60%;
     height: 2px;
-    background: #b4765a
+    background: #9ab45a;
 }
 
 .about-section .content .title span::before {
@@ -1795,11 +1797,11 @@ textarea.form-control {
     bottom: 0;
     width: 30%;
     height: 2px;
-    background: #b4765a
+    background: #9ab45a;
 }
 
 .about-section .content .text {
-    color: #ccc;
+    color: #282828;
     margin-bottom: 25px
 }
 
@@ -1808,7 +1810,7 @@ textarea.form-control {
     padding: 0;
     margin-bottom: 30px;
     list-style: none;
-    border-left: 1px solid #b4765a
+    border-left: 1px solid #9ab45a;
 }
 
 .about-section .content .content-list li {
@@ -1826,7 +1828,7 @@ textarea.form-control {
     transform: translateY(-50%);
     width: 15px;
     height: 1px;
-    background: #b4765a
+    background: #8bab3f;
 }
 
 .about-section .content .content-list li:last-child {
@@ -1835,9 +1837,10 @@ textarea.form-control {
 
 .about-section .content .content-list h6 {
     font-family: roboto, sans-serif;
-    color: #fff;
+    color: #262626;
     font-weight: 400;
-    margin: 0
+    margin: 0;
+    text-transform: capitalize;
 }
 
 .about-section.style-two {
@@ -1919,7 +1922,7 @@ textarea.form-control {
 }
 
 .gallery-section .card .image .hover-content {
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -1936,7 +1939,7 @@ textarea.form-control {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center */
 }
 
 .gallery-section .card .image .hover-content a {
@@ -1975,7 +1978,7 @@ textarea.form-control {
 }
 
 .gallery-section .card .content .price {
-    color: #b4765a;
+    color: #678b0e;
     font-weight: 500
 }
 
@@ -2172,14 +2175,15 @@ textarea.form-control {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    background: #f7f7f7;
+    background: #cddfa117;
     overflow: hidden;
     -webkit-transition: .5s;
-    transition: .5s
+    transition: .5s;
+    border: 1px solid beige;
 }
 
 .promo-contact-section .card .icon {
-    padding: 30px;
+    padding: 24px;
     position: relative;
     color: #fff;
     text-align: center;
@@ -2207,10 +2211,11 @@ textarea.form-control {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #b4765a;
+    background: #92b53d;
     z-index: -1;
     -webkit-transition: .5s;
-    transition: .5s
+    transition: .5s;
+    border: 1px solid beige;
 }
 
 .promo-contact-section .card .content {
@@ -2222,11 +2227,11 @@ textarea.form-control {
 }
 
 .promo-contact-section .card .content .text {
-    color: #b4765a
+    color: #689300
 }
 
 .promo-contact-section .card .content .text a {
-    color: #b4765a
+    color: #689300
 }
 
 .promo-contact-section .card:hover {
@@ -2453,7 +2458,7 @@ textarea.form-control {
 
 .service-section {
     position: relative;
-    margin-top: -60px
+    margin-top: 2px;
 }
 
 @media(max-width:575px) {
@@ -2546,7 +2551,7 @@ textarea.form-control {
 }
 
 .service-section .card .content .title {
-    margin-bottom: 5px
+    margin-bottom: 65px;
 }
 
 .service-section .card .content .title a {
@@ -6667,13 +6672,18 @@ label {
     margin: 0 10px;
     cursor: pointer;
     text-transform: capitalize;
-    color: #0a0a0a !important
+    color: #0a0a0a !important;
+    font-size: 17px;
 }
 
 .nav-tabs-navigation .nav .nav-link.active {
-    border: 1px solid #b4765a;
-    border-radius: 0;
-    color: #b4765a !important
+    border: 1px solid #bd4084;
+    border-radius: 2px;
+    color: #bd4084 !important;
+}
+
+.gallery-section .card .content .title a {
+    color: #bd4084;
 }
 
 .tab-content .tab-pane.active {
@@ -6762,7 +6772,7 @@ label {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    padding: 160px 0 100px
+    padding: 160px 0 65px
 }
 
 .page-title-area::before {
@@ -6773,7 +6783,7 @@ label {
     height: 100%;
     content: "";
     background: #fff;
-    background: linear-gradient(321deg, rgba(255, 255, 255, 0.636214) 0%, #e0e1e3 100%);
+    background: linear-gradient(314deg, rgb(183 61 127 / 32%) 0%, #e0e1e3 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e0e1e3", GradientType=1);
     z-index: -1
 }
@@ -6794,10 +6804,11 @@ label {
 }
 
 .page-title-area .page-title-content h1 {
-    color: #b4765a;
+    color: #b73d7f;
     margin-bottom: 10px;
     margin-top: -5px;
-    line-height: 1.2
+    line-height: 1.2;
+    font-size: 40px;
 }
 
 .page-title-area .page-title-content ul {
@@ -6836,7 +6847,7 @@ label {
 }
 
 .page-title-area .page-title-content ul .active {
-    color: #b4765a
+    color: #b73d7f
 }
 
 .pagination {
@@ -7401,20 +7412,20 @@ label {
 }
 
 .contact-map .map {
-    overflow: hidden;
+    /* overflow: hidden;
     padding-bottom: 50%;
     position: relative;
     height: 0;
-    border: none
+    border: none */
 }
 
 .contact-map .map iframe {
-    left: 0;
+    /* left: 0;
     top: 0;
     height: 100%;
     width: 100%;
     position: absolute;
-    border: 0
+    border: 0 */
 }
 
 .error-area {
@@ -8586,7 +8597,7 @@ ul.footer-links li a {
 
 .footer-ii {
     font-size: 25px;
-    color: #444848;
+    color: #b73d7f;
 }
 
 .background-clip {
@@ -8604,7 +8615,7 @@ ul.footer-links li a {
 .slider {
     position: relative;
     width: 100%;
-    min-height: 793px;
+    min-height: 562px;
     display: inline-flex;
     margin: auto;
 }
@@ -8658,4 +8669,12 @@ ul.footer-links li a {
 
 .main-nav {
     background: linear-gradient(45deg, #fdfdfd7d, transparent);
+}
+
+.content.add p {
+    margin-bottom: 5px;
+}
+
+span.text.loc {
+    font-size: 20px;
 }

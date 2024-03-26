@@ -1380,6 +1380,9 @@
 }
 
 @media (max-width:768px) {
+    .nav-tabs-navigation .nav .nav-link {
+        padding: 5px 6px;
+    }
     .mobile-video {
         display: block;
         width: 100%;
