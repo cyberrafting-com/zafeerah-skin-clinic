@@ -6,7 +6,7 @@
                     <div class="footer-widget ptb-100 border-right">
                         <div class="navbar-brand">
                             <a href="#">
-                                <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}"
+                                <img src="{{ asset('/resources/assets/images/footer-logo.png') }}"
                                     alt="zafeerah-skin-clinic-logo')}}" />
                             </a>
                         </div>
