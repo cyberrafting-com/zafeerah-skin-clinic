@@ -367,8 +367,12 @@
                             aria-controls="tab4" aria-selected="false">Cosmetic Dermatology</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" id="skin-tab" data-bs-toggle="tab" href="#tab5" role="tab"
+                            aria-controls="tab5" aria-selected="false">Skin</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" id="anti-ageing-tab" data-bs-toggle="tab" href="#tab6" role="tab"
-                            aria-controls="tab6" aria-selected="false">Skin</a>
+                            aria-controls="tab6" aria-selected="false">Anti Ageing</a>
                     </li>
                 </ul>
             </div>
@@ -378,7 +382,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
+                                    <img src="{{ asset('/resources/assets/images/img14.png') }}"
                                         alt="Demo Image">
                                    
                                 </div>
@@ -392,7 +396,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
+                                    <img src="{{ asset('/resources/assets/images/img14.png') }}"
                                         alt="Demo Image">
                                     {{-- <div class="hover-content">
                                         <a href="#">Book Now</a>
@@ -409,7 +413,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
+                                    <img src="{{ asset('/resources/assets/images/img14.png') }}"
                                         alt="Demo Image">
                                    
                                 </div>
@@ -424,7 +428,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
+                                    <img src="{{ asset('/resources/assets/images/img14.png') }}"
                                         alt="Demo Image">
                                    
                                 </div>
@@ -438,7 +442,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
+                                    <img src="{{ asset('/resources/assets/images/img14.png') }}"
                                         alt="Demo Image">
                                     {{-- <div class="hover-content">
                                         <a href="#">Book Now</a>
@@ -454,7 +458,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
+                                    <img src="{{ asset('/resources/assets/images/img14.png') }}"
                                         alt="Demo Image">
                                     {{-- <div class="hover-content">
                                         <a href="#">Book Now</a>
@@ -476,9 +480,9 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
                                         alt="Demo Image">
-                                    <div class="hover-content">
+                                    {{-- <div class="hover-content">
                                         <a href="#">Book Now</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Dark Circle Reduction</a></h3>
@@ -492,9 +496,9 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
                                         alt="Demo Image">
-                                    <div class="hover-content">
+                                    {{-- <div class="hover-content">
                                         <a href="#">Book Now</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Laser Eye Wrinkle Reduction</a></h3>
@@ -508,13 +512,13 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
                                         alt="Demo Image">
-                                    <div class="hover-content">
+                                    {{-- <div class="hover-content">
                                         <a href="#">Book Now</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="content">
-                                    {{-- <h3 class="title"><a href="#">Eye Bag Correction</a></h3>
-                                    <p>Eye bag correction, also known as eyelid surgery, is a cosmetic treatment performed to reduce the appearance of under-eye bags, puffiness, and drooping eyelids.</p>
+                                    <h3 class="title"><a href="#">Eye Bag Correction</a></h3>
+                                    {{-- <p>Eye bag correction, also known as eyelid surgery, is a cosmetic treatment performed to reduce the appearance of under-eye bags, puffiness, and drooping eyelids.</p>
                                     <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
@@ -524,9 +528,9 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
                                         alt="Demo Image">
-                                    <div class="hover-content">
+                                    {{-- <div class="hover-content">
                                         <a href="#">Book Now</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Blepharoplasty (Eyelid Surgery)</a></h3>
@@ -540,9 +544,9 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
                                         alt="Demo Image">
-                                    <div class="hover-content">
+                                    {{-- <div class="hover-content">
                                         <a href="#">Book Now</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Crows Feet</a></h3>
@@ -571,7 +575,7 @@
                 </div>
                 <div class="tab-pane" id="tab3" role="tabpanel" aria-labelledby="makeup-tab">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -582,12 +586,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Body Shaping & Sculpting</a></h3>
-                                    <p>Body shaping and sculpting refer to a range of techniques and procedures designed to enhance and contour the body's appearance. </p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p>Body shaping and sculpting refer to a range of techniques and procedures designed to enhance and contour the body's appearance. </p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -598,12 +602,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Liposuction</a></h3>
-                                    <p>Liposuction, often referred to as lipo or lipoplasty, is a cosmetic surgical procedure designed to eliminate unwanted fat from specific areas of the body. These areas commonly include the abdomen, thighs, buttocks, hips, arms, neck, and chin. </p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p>Liposuction, often referred to as lipo or lipoplasty, is a cosmetic surgical procedure designed to eliminate unwanted fat from specific areas of the body. These areas commonly include the abdomen, thighs, buttocks, hips, arms, neck, and chin. </p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -614,12 +618,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Body Contouring</a></h3>
-                                    <p>Body contouring encompasses a variety of surgical and non-surgical procedures to reshape and enhance the body's contours. </p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p>Body contouring encompasses a variety of surgical and non-surgical procedures to reshape and enhance the body's contours. </p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -630,12 +634,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Fat Transfer & Grafting</a></h3>
-                                    <p>Fat transfer and grafting is a cosmetic procedure that involves transferring fat from one area of the body to another to enhance volume and contours or rejuvenate specific features.</p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p>Fat transfer and grafting is a cosmetic procedure that involves transferring fat from one area of the body to another to enhance volume and contours or rejuvenate specific features.</p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -646,8 +650,8 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Stretch Mark Removal</a></h3>
-                                    <p>Stretch marks are a type of scarring that occurs when the skin is stretched suddenly due to factors such as pregnancy, rapid weight gain or loss, puberty, or certain medical conditions. </p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p>Stretch marks are a type of scarring that occurs when the skin is stretched suddenly due to factors such as pregnancy, rapid weight gain or loss, puberty, or certain medical conditions. </p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
@@ -671,7 +675,7 @@
                 </div>
                 <div class="tab-pane" id="tab4" role="tabpanel" aria-labelledby="cosmetic-tab">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -682,12 +686,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Laser Hair Removal Clinic</a></h3>
-                                    <p>Laser hair removal is a technique that uses concentrated beams of light or laser to target and damage hair follicles, preventing future hair growth.</p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p>Laser hair removal is a technique that uses concentrated beams of light or laser to target and damage hair follicles, preventing future hair growth.</p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -698,12 +702,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Skin Brightening</a></h3>
-                                    <p>Skin brightening is a cosmetic technique designed to lighten and even out skin tone, reduce hyperpigmentation, and enhance overall radiance. </p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p>Skin brightening is a cosmetic technique designed to lighten and even out skin tone, reduce hyperpigmentation, and enhance overall radiance. </p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -714,12 +718,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Laser Tattoo Removal</a></h3>
-                                    <p>Laser tattoo removal involves using specialized lasers that target the pigments in the tattoo ink, breaking them down into smaller particles that are then eliminated by the body's immune system.</p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p>Laser tattoo removal involves using specialized lasers that target the pigments in the tattoo ink, breaking them down into smaller particles that are then eliminated by the body's immune system.</p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -730,13 +734,13 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Moles And Skin Tag Removal</a></h3>
-                                    <p>Moles are groups of pigmented cells that are seen as small, dark spots on the skin. They may vary in size, shape, and color, ranging from tan to brown to black. Moles are typically harmless but should be monitored for changes in size, shape, or color, as these could indicate skin cancer.
+                                    {{-- <p>Moles are groups of pigmented cells that are seen as small, dark spots on the skin. They may vary in size, shape, and color, ranging from tan to brown to black. Moles are typically harmless but should be monitored for changes in size, shape, or color, as these could indicate skin cancer.
                                     </p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -747,8 +751,8 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Botox</a></h3>
-                                    <p>Botox is a neurotoxic compound produced by the bacterium Clostridium botulinum. While this may sound alarming, Botox is used in minuscule amounts for medical and cosmetic purposes.</p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p>Botox is a neurotoxic compound produced by the bacterium Clostridium botulinum. While this may sound alarming, Botox is used in minuscule amounts for medical and cosmetic purposes.</p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
@@ -772,7 +776,7 @@
                 </div>
                 <div class="tab-pane" id="tab5" role="tabpanel" aria-labelledby="skin-tab">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -783,12 +787,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Super Specialty Dermatology</a></h3>
-                                    <p></p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p></p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -799,12 +803,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Vitiligo Clinic</a></h3>
-                                    <p></p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p></p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -815,12 +819,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Acne Scars & Pigmentation Clinic</a></h3>
-                                    <p></p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p></p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -831,8 +835,8 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Warts</a></h3>
-                                    <p></p>
-                                    <a href="#"> <span class="price">Know More</span></a>
+                                    {{-- <p></p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
                             </div>
                         </div>
@@ -872,7 +876,7 @@
                 </div>
                 <div class="tab-pane" id="tab6" role="tabpanel" aria-labelledby="anti-ageing-tab">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -888,7 +892,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -904,7 +908,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -920,7 +924,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
