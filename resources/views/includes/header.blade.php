@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="main-responsive-menu">
                     <div class="logo">
-                        <a href="#">
+                        <a href="{{ route('home')}}">
                             <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}" alt="logo">
                             {{-- <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}" alt="logo"> --}}
                         </a>
@@ -88,7 +88,7 @@
         <div class="main-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="{{ route('home')}}">
                         <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}" alt="Logo">
                         <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}" alt="Logo">
                     </a>
@@ -113,7 +113,7 @@
                                 <a href="{{ route('home')}}" class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">About</a>
+                                <a href="{{ route('about')}}" class="nav-link">About</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link toggle">Services<i class="bx bx-chevron-down"></i></a>

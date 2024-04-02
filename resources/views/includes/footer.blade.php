@@ -5,7 +5,7 @@
                 <div class="col-lg-5 col-md-6 col-sm-6 col-12">
                     <div class="footer-widget ptb-100 border-right">
                         <div class="navbar-brand">
-                            <a href="#">
+                            <a href="{{ route('home')}}">
                                 <img src="{{ asset('/resources/assets/images/footer-logo.png') }}"
                                     alt="zafeerah-skin-clinic-logo')}}" />
                             </a>

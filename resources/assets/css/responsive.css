@@ -48,7 +48,8 @@
     }
     .primary-btn {
         padding: 10px 18px;
-        font-size: 14px
+        font-size: 14px;
+        width: 90%;
     }
     .btn-text {
         font-size: 14px
@@ -397,7 +398,7 @@
     }
     .nav-tabs-navigation .nav .nav-link {
         margin: 0 5px;
-        font-size: 13px
+        font-size: 18px
     }
     .page-title-area {
         padding: 60px 0
@@ -1380,8 +1381,17 @@
 }
 
 @media (max-width:768px) {
+    section#testimonial {
+        padding-top: 50px;
+    }
+    a.view-btn {
+        width: 98%;
+    }
+    .abt-btn {
+        width: 70%;
+    }
     .nav-tabs-navigation .nav .nav-link {
-        padding: 5px 6px;
+        padding: 10px 7px;
     }
     .mobile-video {
         display: block;

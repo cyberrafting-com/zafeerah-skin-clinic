@@ -1846,7 +1846,7 @@ textarea.form-control {
     transform: translateY(-50%);
     width: 15px;
     height: 1px;
-    background: #fcd9c7;
+    background: #d3a187;
 }
 
 .about-section .content .content-list li:last-child {
@@ -1979,11 +1979,13 @@ textarea.form-control {
 
 .gallery-section .card .content {
     padding: 0;
-    padding-left: 20px;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 70%;
-    flex: 0 0 70%;
-    max-width: 70%
+    /* padding-left: 20px; */
+    /* -webkit-box-flex: 0; */
+    /*-ms-flex: 0 0 70%; */
+    /* flex: 0 0 70%; */
+    /* max-width: 70%; */
+    text-align: center;
+    padding-top: 20px;
 }
 
 .gallery-section .card .content .title {
@@ -2193,11 +2195,11 @@ textarea.form-control {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    background: #cddfa117;
+    background: #f7f7f7;
     overflow: hidden;
     -webkit-transition: .5s;
     transition: .5s;
-    border: 1px solid beige;
+    border: 1px solid #efeded;
 }
 
 .promo-contact-section .card .icon {
@@ -2229,7 +2231,7 @@ textarea.form-control {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #92b53d;
+    background: #b4765a;
     z-index: -1;
     -webkit-transition: .5s;
     transition: .5s;
@@ -2245,11 +2247,11 @@ textarea.form-control {
 }
 
 .promo-contact-section .card .content .text {
-    color: #689300
+    color: #ad6e51
 }
 
 .promo-contact-section .card .content .text a {
-    color: #689300
+    color: #ad6e51
 }
 
 .promo-contact-section .card:hover {
@@ -6557,11 +6559,11 @@ label {
 }
 
 .about-single-area .about-section .content .blockquote {
-    padding: 15px;
+    padding: 5px 12px;
     padding-left: 20px;
     font-size: 18px;
-    border-left: 3px solid #b4765a;
-    margin-bottom: 25px
+    /* border-left: 3px solid #b4765a; */
+    margin-bottom: 5px;
 }
 
 .about-single-area .promo-service-section .card {
@@ -6704,7 +6706,9 @@ label {
 }
 
 .gallery-section .card .content .title a {
-    color: #323131;
+    color: #2e2e2e;
+    font-size: 18px;
+    text-align: center;
 }
 
 .tab-content .tab-pane.active {
@@ -6804,7 +6808,7 @@ label {
     height: 100%;
     content: "";
     background: #fff;
-    background: linear-gradient(314deg, rgb(183 61 127 / 32%) 0%, #e0e1e3 100%);
+    background: linear-gradient(314deg, rgb(106 59 38 / 66%) 0%, #e0e1e394 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e0e1e3", GradientType=1);
     z-index: -1
 }
@@ -6825,7 +6829,7 @@ label {
 }
 
 .page-title-area .page-title-content h1 {
-    color: #b73d7f;
+    color: #9b5535;
     margin-bottom: 10px;
     margin-top: -5px;
     line-height: 1.2;
@@ -6868,7 +6872,7 @@ label {
 }
 
 .page-title-area .page-title-content ul .active {
-    color: #b73d7f
+    color: #743b21
 }
 
 .pagination {
@@ -8682,16 +8686,17 @@ ul.footer-links li a {
     font-size: 21px;
     color: #ffffff;
     text-decoration: none;
-    border: 1px solid #6d388c;
+    border: 1px solid #c58e76;
     padding: 12px 45px;
     font-weight: 500;
     border-radius: 50px;
     background: aquamarine;
     background: linear-gradient(78deg, rgb(94 34 130 / 47%) 0%, rgb(220 121 175 / 50%) 69%);
+    background: #b4765a;
 }
 
 .main-nav {
-    background: linear-gradient(45deg, #fdfdfd7d, transparent);
+    background: linear-gradient(45deg, #d3d3d37d, transparent);
 }
 
 .content.add p {
@@ -8733,4 +8738,38 @@ section#gallery {
 
 .txt-chose {
     color: #d19378;
+}
+
+.gallery-section .card img {
+    border-radius: 2px;
+    /* border: coral; */
+    border: 2px solid #d1a695;
+    padding: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29;
+    background: #f1f1f1;
+    border-style: outset;
+    /* border-color: #877f7c;*/
+}
+
+a.view-btn {
+    text-align: center;
+    font-size: 18px;
+    background: #232424;
+    color: #fff;
+    padding: 10px 0px;
+    border-radius: 2px;
+    width: 32%;
+    display: inline-block;
+}
+
+.view-span {
+    text-align: center;
+}
+
+.abtt-text1 {
+    color: #212529!important;
+    font-weight: 400!important;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 18px!important;
 }
