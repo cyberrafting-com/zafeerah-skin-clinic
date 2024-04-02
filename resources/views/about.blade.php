@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="image mb-30">
-                        <img src="{{ asset('/resources/assets/images/about/about1.jpg') }}" alt="Demo Image" />
+                        <img src="{{ asset('/resources/assets/images/service/service4.png') }}" alt="Demo Image" />
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -82,6 +82,85 @@
         <div class="bg-shape">
             <img src="assets/images/line1.png" alt="Shape Image">
         </div>
+    </section>
+    <section id="about" class="about-section ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mobile-viewimg">
+                    <div class="image mb-30">
+                        <img src="{{ asset('/resources/assets/images/dr-zainul-hamdani.jpeg') }}" alt="Demo Image" />
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" style="background:#f9fafb;border: 1px solid #ebe9e8;">
+                    <div class="content mb-30">
+                        <h2 class="title first">
+                            Dr. Zainul Hamdani                          
+                          
+                        </h2>
+                        <h2 class="title second">
+                            Consultant Dermatologist                            
+                            <span></span>
+                        </h2>
+                        <blockquote class="blockquote  abt-page">
+                            Dr. Zainul Hamdani is a consultant Dermatologist, Cosmetologist, Trichologist practicing in Mumbai & Navi Mumbai. He has an experience of more than 10 years in the treatment of numerous hair & skin problems.
+
+
+                        </blockquote>
+                        <blockquote class="blockquote  abt-page">
+                            He is a meticulous doctor and keeps a thorough follow-up of all the patients who consult him. He is also a keen learner and is up to date with all the new nuances in the field of dermatology & cosmetology.
+
+
+                        </blockquote>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 desktop-viewimg">
+                    <div class="image mb-30">
+                        <img src="{{ asset('/resources/assets/images/dr-zainul-hamdani.jpeg') }}" alt="Demo Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="about" class="about-section ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="image mb-30">
+                        <img src="{{ asset('/resources/assets/images/female-doctor-icon.png') }}" alt="Demo Image" />
+                    </div>
+                </div>
+                <div class="col-lg-6" style="background:#f9fafb;border: 1px solid #ebe9e8;">
+                    <div class="content mb-30">
+                        <h2 class="title first ml">
+                            Dr. Afsin Z Hamdani
+                           
+                        </h2>
+                        <h2 class="title second ml">
+                            Consultant Dermatologist                            
+                            <span></span>
+                        </h2>
+                        <blockquote class="blockquote">
+                            Dr. Afsin Z Hamdani is a consultant Cosmetologist practicing in Mumbai with an experience of more than 5 years.
+
+
+                        </blockquote>
+                        <blockquote class="blockquote">
+                            She strives to provide her patients with exceptional cosmetological care by ensuring a thorough diagnosis and proper treatment regimens for their skin & hair conditions. She works with an amazing staff of experienced and talented professionals to deliver the support and assistance you need, when you need it.
+
+
+                        </blockquote>
+                        
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+       
     </section>
 
 

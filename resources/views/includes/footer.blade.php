@@ -142,7 +142,7 @@
                         document.write(new Date().getFullYear())
                     </script> 
                     <a href="#" >
-                        Zaheerah Skin Clinic
+                        Zafeerah Skin Clinic
                     </a>
                 </span>
             </div>

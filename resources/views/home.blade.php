@@ -1009,7 +1009,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-12">
                         <div class="image">
-                            <img src="{{ asset('/resources/assets/images/testimonial-img.jpg') }}" alt="">
+                            <img src="{{ asset('/resources/assets/images/testimonial-img.png') }}" alt="">
                             {{-- <img src="assets/images/line3.png" alt="Shape Image" class="shape"> --}}
                         </div>
                     </div>

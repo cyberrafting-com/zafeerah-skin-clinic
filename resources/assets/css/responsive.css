@@ -1381,6 +1381,12 @@
 }
 
 @media (max-width:768px) {
+    .mobile-viewimg {
+        display: block;
+    }
+    .desktop-viewimg {
+        display: none;
+    }
     section#testimonial {
         padding-top: 50px;
     }

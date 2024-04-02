@@ -885,7 +885,7 @@ textarea.form-control {
 }
 
 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a:hover {
-    color: #b73d7f;
+    color: #b4765a;
     background-color: #f6f6f6
 }
 
@@ -909,7 +909,7 @@ textarea.form-control {
     transform: scaleY(0);
     -webkit-transition: .5s;
     transition: .5s;
-    background: #b73d7f
+    background: #b4765a
 }
 
 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a.active {
@@ -1773,7 +1773,8 @@ textarea.form-control {
 
 .about-section .image img {
     -webkit-transition: .5s;
-    transition: .5s
+    transition: .5s;
+    border-radius: 5px;
 }
 
 @media(max-width:991px) and (min-width:768px) {
@@ -8723,6 +8724,11 @@ section#service {
 
 section#gallery {
     background: #fffafd;
+    background: url('../images/service-bg-img1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 .abt-btn:hover {
@@ -8772,4 +8778,41 @@ a.view-btn {
     margin: 0;
     text-transform: capitalize;
     font-size: 18px!important;
+}
+
+.icon img {
+    background: #fcddce;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.about-single-area .about-section .content .title.first {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2.title.second {
+    font-size: 26px;
+}
+
+.about-single-area .about-section .content .blockquote.abt-page {
+    padding-left: 0px;
+}
+
+.first.ml {
+    margin-left: 20px;
+}
+
+.about-single-area .about-section .content .title.second.ml {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.mobile-viewimg {
+    display: none;
+}
+
+.desktop-viewimg {
+    display: block;
 }
