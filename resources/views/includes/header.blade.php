@@ -282,10 +282,10 @@
                                         class="bx bx-chevron-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Images</a>
+                                        <a href="{{ route('images-gallery')}}" class="nav-link">Images</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Video</a>
+                                        <a href="{{ route('video-gallery')}}" class="nav-link">Video</a>
                                     </li>
                                 </ul>
                             </li>
@@ -293,7 +293,7 @@
                                 <a href="#" class="nav-link">Faq's</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Patient Info</a>
+                                <a href="{{ route('patient-info')}}" class="nav-link">Patient Info</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Blog</a>
@@ -301,74 +301,15 @@
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Career</a>
                             </li>
-                            {{-- <li class="nav-item">
-                                <a href="#" class="nav-link toggle">Shop<i class="bx bx-chevron-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link toggle">Shop<i
-                                                class="bx bx-chevron-down"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="shop-left-sidebar.html" class="nav-link">Shop Left
-                                                    Sidebar</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="shop-right-sidebar.html" class="nav-link">Shop Right
-                                                    Sidebar</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="cart.html" class="nav-link">Cart</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="wishlist.html" class="nav-link">Wishlist</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="checkout.html" class="nav-link">Checkout</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="product-details.html" class="nav-link">Product Details</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="order.html" class="nav-link">Order</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="order-details.html" class="nav-link">Order Details</a>
-                                    </li>
-                                </ul>
-                            </li> --}}
-                            {{-- <li class="nav-item">
-                                <a href="#" class="nav-link toggle">Services<i
-                                        class="bx bx-chevron-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="services.html" class="nav-link">Services</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="services-details.html" class="nav-link">Services Details</a>
-                                    </li>
-                                </ul>
-                            </li> --}}
-                            {{-- <li class="nav-item">
-                                <a href="#" class="nav-link toggle">Blog<i class="bx bx-chevron-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="blog.html" class="nav-link">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="blog-details.html" class="nav-link">Blog Details</a>
-                                    </li>
-                                </ul>
-                            </li> --}}
+                            
                             <li class="nav-item">
                                 <a href="{{ route('contact')}}" class="nav-link">Contact Us</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="side-option">
+                    {{-- <div class="side-option">
                         <div class="item">
-                            {{-- <div class="language">
+                            <div class="language">
                                 <a href="#language" class="language-button">Language<i
                                         class="bx bx-chevron-down"></i>
                                 </a>
@@ -406,17 +347,17 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div> --}}
+                            </div>
                         </div>
-                        {{-- <div class="item">
+                        <div class="item">
                             <div class="cart">
                                 <a href="cart.html" class="cart-btn">
                                     <i class="flaticon shopping-bag"></i>
                                     <span class="badge">0</span>
                                 </a>
                             </div>
-                        </div> --}}
-                        {{-- <div class="item">
+                        </div>
+                        <div class="item">
                             <a href="#searchBox" class="btn-search" data-effect="mfp-zoom-in">
                                 <i class="bx bx-search"></i>
                             </a>
@@ -428,8 +369,8 @@
                                     </button>
                                 </form>
                             </div>
-                        </div> --}}
-                    </div>
+                        </div>
+                    </div> --}}
                 </nav>
             </div>
         </div>

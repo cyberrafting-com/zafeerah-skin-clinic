@@ -8816,3 +8816,27 @@ h2.title.second {
 .desktop-viewimg {
     display: block;
 }
+
+section.sec-info {
+    margin: 50px 0px;
+}
+
+.embed-post {
+    margin-bottom: 20px;
+}
+
+section.section-view {
+    padding: 50px 0px;
+}
+
+.img-view {
+    padding-bottom: 20px;
+}
+
+section.section-view1 {
+    padding: 50px 0px;
+}
+
+section.section-view1 img {
+    padding-bottom: 41px;
+}

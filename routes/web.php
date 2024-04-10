@@ -31,7 +31,17 @@ Route::get('contact-us', function () {
     return view('contact');
 })->name('contact');
 
+Route::get('patient-info', function () {
+    return view('patient-info');
+})->name('patient-info');
 
+Route::get('video-gallery', function () {
+    return view('video-gallery');
+})->name('video-gallery');
+
+Route::get('images-gallery', function () {
+    return view('images-gallery');
+})->name('images-gallery');
 
 
 
