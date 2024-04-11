@@ -1381,6 +1381,21 @@
 }
 
 @media (max-width:768px) {
+    .wrapper {
+        margin-bottom: 20px;
+    }
+    .wrapper .profile .title {
+        font-size: 18px;
+    }
+    .career-sec h1 {
+        font-size: 25px;
+    }
+    .wrapper .profile .name {
+        font-size: 21px;
+    }
+    .accordion-content p {
+        margin: 0 0 15px;
+    }
     .mobile-viewimg {
         display: block;
     }

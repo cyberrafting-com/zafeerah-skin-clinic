@@ -85,9 +85,6 @@
             </div>
         </div>
     </section>
-
-
-
     <section id="about" class="about-section pt-100 pb-70">
         <div class="container">
             <div class="row align-items-center">
@@ -204,7 +201,8 @@
                 <div class="col p-0">
                     <div class="card">
                         <div class="image">
-                            <img src="{{ asset('/resources/assets/images/service/cosmetic-dermatology-img.png') }}" alt="">
+                            <img src="{{ asset('/resources/assets/images/service/cosmetic-dermatology-img.png') }}"
+                                alt="">
                         </div>
                         <div class="content">
                             <h3 class="title"><a href="#">Cosmetic Dermatology</a></h3>
@@ -262,7 +260,7 @@
                         </div>
                         <div class="content">
                             <h3 class="title txt-chose">
-                               Safe Procedures 
+                                Safe Procedures
                             </h3>
                             <p class="text">
                                 Quality equipment for safe, effective treatments.
@@ -281,7 +279,7 @@
                             <h3 class="title txt-chose">
                                 Wide-range Treatment
 
-                                
+
                             </h3>
                             <p class="text">
                                 Certified team in cosmetology, dermatology, and trichology.
@@ -301,9 +299,9 @@
                         </div>
                         <div class="content">
                             <h3 class="title txt-chose">
-                               Experienced Doctor
+                                Experienced Doctor
 
-                               
+
                             </h3>
                             <p class="text">
                                 Years of practice in cosmetology.
@@ -322,9 +320,9 @@
                         </div>
                         <div class="content">
                             <h3 class="title txt-chose">
-                               Assured Solution
+                                Assured Solution
 
-                                
+
                             </h3>
                             <p class="text">
                                 Helping patients achieve dream skin health.
@@ -370,7 +368,7 @@
                         <a class="nav-link" id="cosmetic-tab" data-bs-toggle="tab" href="#tab4" role="tab"
                             aria-controls="tab4" aria-selected="false">Cosmetic Dermatology</a>
                     </li>
-                  
+
                     <li class="nav-item">
                         <a class="nav-link" id="anti-ageing-tab" data-bs-toggle="tab" href="#tab6" role="tab"
                             aria-controls="tab6" aria-selected="false">Anti Ageing</a>
@@ -385,7 +383,7 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/computerized-hair-analysis.jpg') }}"
                                         alt="">
-                                   
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Computerized Hair Analysis</a></h3>
@@ -412,9 +410,8 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/Mesotherapy.jpg') }}"
-                                        alt="#">
-                                   
+                                    <img src="{{ asset('/resources/assets/images/Mesotherapy.jpg') }}" alt="#">
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Mesotherapy</a></h3>
@@ -464,9 +461,9 @@
                                 </div>
                             </div>
                         </div> --}}
-                       <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
+                        <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
                     </div>
-                  
+
                 </div>
                 <div class="tab-pane" id="tab2" role="tabpanel" aria-labelledby="hair-tab">
                     <div class="row justify-content-center">
@@ -514,8 +511,7 @@
                         <div class="col-md-4">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/blepharoplasty.jpg') }}"
-                                        alt="#">
+                                    <img src="{{ asset('/resources/assets/images/blepharoplasty.jpg') }}" alt="#">
                                     {{-- --}}
                                 </div>
                                 <div class="content">
@@ -554,7 +550,7 @@
                         </div> --}}
                         <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
                     </div>
-                    
+
                 </div>
                 <div class="tab-pane" id="tab3" role="tabpanel" aria-labelledby="makeup-tab">
                     <div class="row justify-content-center">
@@ -563,7 +559,7 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/body-shaping-sculpting.jpg') }}"
                                         alt="#">
-                                   
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Body Shaping & Sculpting</a></h3>
@@ -590,7 +586,7 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/body-contouring.jpg') }}"
                                         alt="#">
-                                   
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Body Contouring</a></h3>
@@ -617,7 +613,7 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/stretch-mark-removal.jpg') }}"
                                         alt="#">
-                                   
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Stretch Mark Removal</a></h3>
@@ -642,7 +638,7 @@
                         </div> --}}
                         <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
                     </div>
-                   
+
                 </div>
                 <div class="tab-pane" id="tab4" role="tabpanel" aria-labelledby="cosmetic-tab">
                     <div class="row justify-content-center">
@@ -651,7 +647,7 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/laser-hair-removal-clinic.jpg') }}"
                                         alt="#">
-                                   
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Laser Hair Removal Clinic</a></h3>
@@ -665,7 +661,7 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-brightening.jpg') }}"
                                         alt="#">
-                                   
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Skin Brightening</a></h3>
@@ -703,9 +699,8 @@
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/botox.jpg') }}"
-                                        alt="#">
-                                   
+                                    <img src="{{ asset('/resources/assets/images/botox.jpg') }}" alt="#">
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Botox</a></h3>
@@ -730,7 +725,7 @@
                         </div> --}}
                         <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
                     </div>
-                   
+
                 </div>
                 <div class="tab-pane" id="tab5" role="tabpanel" aria-labelledby="skin-tab">
                     <div class="row justify-content-center">
@@ -752,7 +747,7 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/vitiligo-clinic.jpg') }}"
                                         alt="#">
-                                   
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Vitiligo Clinic</a></h3>
@@ -766,7 +761,7 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/acne-scars-pigmentation-clinic.jpg') }}"
                                         alt="#">
-                                   
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Acne Scars & Pigmentation Clinic</a></h3>
@@ -778,9 +773,8 @@
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/Warts.jpg') }}"
-                                        alt="#">
-                                   
+                                    <img src="{{ asset('/resources/assets/images/Warts.jpg') }}" alt="#">
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Warts</a></h3>
@@ -819,7 +813,7 @@
                         </div> --}}
                         <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
                     </div>
-                    
+
                 </div>
                 <div class="tab-pane" id="tab6" role="tabpanel" aria-labelledby="anti-ageing-tab">
                     <div class="row justify-content-center">
@@ -842,7 +836,7 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-tightening-medifacial.jpg') }}"
                                         alt="#">
-                                   
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Skin Tightening Medifacial</a></h3>
@@ -854,9 +848,8 @@
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/HIFU.jpg') }}"
-                                        alt="#">
-                                   
+                                    <img src="{{ asset('/resources/assets/images/HIFU.jpg') }}" alt="#">
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">HIFU</a></h3>
@@ -868,9 +861,8 @@
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/Ultherapy.jpg') }}"
-                                        alt="#">
-                                   
+                                    <img src="{{ asset('/resources/assets/images/Ultherapy.jpg') }}" alt="#">
+
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Ultherapy</a></h3>
@@ -909,10 +901,10 @@
                         </div> --}}
                         <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
                     </div>
-                    
+
                 </div>
             </div>
-           
+
         </div>
     </section>
     {{-- treatment section end --}}
@@ -936,36 +928,43 @@
                             <h3 class="title">
                                 <a href="#">Dermal Fillers – 6 Things you Should Know</a>
                             </h3>
-                            <p class="text">Dermal fillers and botox are not the same. The first and most important misunderstanding to clear about Dermal filler is – “Dermal filler are not the same as Botox”. Where Botox freezes muscles to diminish wrinkles, fillers smoothen skin by filling wrinkles.  </p>
+                            <p class="text">Dermal fillers and botox are not the same. The first and most important
+                                misunderstanding to clear about Dermal filler is – “Dermal filler are not the same as
+                                Botox”. Where Botox freezes muscles to diminish wrinkles, fillers smoothen skin by filling
+                                wrinkles. </p>
                             <hr>
                             <ul class="info-list">
                                 <li>Dr Zainul Hamdani</li>
                                 {{-- <li>24 Comment</li> --}}
-                          
-                            <div class="cta-btn">
-                                <a href="#" class="btn-text read-more-btn">Read More<i
-                                        class="bx bxs-right-arrow-alt"></i></a>
-                            </div>
-                        </ul>
+
+                                <div class="cta-btn">
+                                    <a href="#" class="btn-text read-more-btn">Read More<i
+                                            class="bx bxs-right-arrow-alt"></i></a>
+                                </div>
+                            </ul>
                         </div>
                     </div>
                     <div class="slider-item">
                         <div class="card">
                             <span class="time">July 28, 2020</span>
                             <h3 class="title">
-                                <a href="#">Different Types of Skin Blemishes and its Treatments – Get Blemish Free Skin</a>
+                                <a href="#">Different Types of Skin Blemishes and its Treatments – Get Blemish Free
+                                    Skin</a>
                             </h3>
-                            <p class="text">It is no secret that everyone dreams of having perfect smooth skin, and many even work hard enough to achieve one. The ongoing international “glass skin” trend and the seemingly unnatural, perfect faces of models looking like dolls, add to the desire of having clear skin.</p>
+                            <p class="text">It is no secret that everyone dreams of having perfect smooth skin, and many
+                                even work hard enough to achieve one. The ongoing international “glass skin” trend and the
+                                seemingly unnatural, perfect faces of models looking like dolls, add to the desire of having
+                                clear skin.</p>
                             <hr>
                             <ul class="info-list">
                                 <li>Dr Zainul Hamdani</li>
                                 {{-- <li>24 Comment</li> --}}
-                          
-                            <div class="cta-btn">
-                                <a href="#" class="btn-text read-more-btn">Read More<i
-                                        class="bx bxs-right-arrow-alt"></i></a>
-                            </div>
-                        </ul>
+
+                                <div class="cta-btn">
+                                    <a href="#" class="btn-text read-more-btn">Read More<i
+                                            class="bx bxs-right-arrow-alt"></i></a>
+                                </div>
+                            </ul>
                         </div>
                     </div>
                     <div class="slider-item">
@@ -974,17 +973,20 @@
                             <h3 class="title">
                                 <a href="#">Fungal Skin Infection: Treatment & Prevention</a>
                             </h3>
-                            <p class="text">When talking about fungus, foremost, many may link fungus to mushrooms growing on a moist tree trunk, or an old bread with mold on it. There are millions of fungi species among which mushrooms & mold are the most well-known ones. Despite millions of species, approx only 300 can cause infection in human beings.</p>
+                            <p class="text">When talking about fungus, foremost, many may link fungus to mushrooms
+                                growing on a moist tree trunk, or an old bread with mold on it. There are millions of fungi
+                                species among which mushrooms & mold are the most well-known ones. Despite millions of
+                                species, approx only 300 can cause infection in human beings.</p>
                             <hr>
                             <ul class="info-list">
                                 <li>Dr Zainul Hamdani</li>
                                 {{-- <li>24 Comment</li> --}}
-                          
-                            <div class="cta-btn">
-                                <a href="#" class="btn-text read-more-btn">Read More<i
-                                        class="bx bxs-right-arrow-alt"></i></a>
-                            </div>
-                        </ul>
+
+                                <div class="cta-btn">
+                                    <a href="#" class="btn-text read-more-btn">Read More<i
+                                            class="bx bxs-right-arrow-alt"></i></a>
+                                </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -994,14 +996,16 @@
                     <div class="video-image">
                         <img src="{{ asset('/resources/assets/images/blog-img.png') }}" alt="video" />
                     </div>
-                    <a href="{{ asset('/resources/assets/images/zafeerah-skin-clinic-video.mp4') }}" type="video/mp4" class="youtube-popup video-btn">
+                    <a href="{{ asset('/resources/assets/images/zafeerah-skin-clinic-video.mp4') }}" type="video/mp4"
+                        class="youtube-popup video-btn">
                         <i class="bx bx-play"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
- {{-- blog end --}}
+    {{-- blog end --}}
+
     {{-- testimonial start --}}
     <section id="testimonial" class="testimonial-section pb-100">
         <div class="container">
@@ -1029,7 +1033,9 @@
                             <div class="slider-item">
                                 <div class="card">
                                     <p class="text">
-                                        <q>Best Dermatologist. I was missed diagnosis with tb treatment So doctor has done me cryo therapy and I have got the result in one sitting . 😊Happy with the treatment best doctor for me.</q>
+                                        <q>Best Dermatologist. I was missed diagnosis with tb treatment So doctor has done
+                                            me cryo therapy and I have got the result in one sitting . 😊Happy with the
+                                            treatment best doctor for me.</q>
                                     </p>
                                     <h5 class="client-name">Mezaz Alam</h5>
                                 </div>
@@ -1037,7 +1043,9 @@
                             <div class="slider-item">
                                 <div class="card">
                                     <p class="text">
-                                        <q>Went multiple times to other doctors but no result. Went to zafeera clinic once and the Dr. cured my fungal infect in a month. Fantastic Experience. Highly recommend.</q>
+                                        <q>Went multiple times to other doctors but no result. Went to zafeera clinic once
+                                            and the Dr. cured my fungal infect in a month. Fantastic Experience. Highly
+                                            recommend.</q>
                                     </p>
                                     <h5 class="client-name">Danish Shaikh</h5>
                                 </div>
@@ -1045,7 +1053,8 @@
                             <div class="slider-item">
                                 <div class="card">
                                     <p class="text">
-                                        <q>I was diagnosed with herpes ...my suffering ended  after being treated by Dr.Hamdani. Thank You Sir...</q>
+                                        <q>I was diagnosed with herpes ...my suffering ended after being treated by
+                                            Dr.Hamdani. Thank You Sir...</q>
                                     </p>
                                     <h5 class="client-name">Sultan Shaikh</h5>
                                 </div>
@@ -1053,7 +1062,8 @@
                             <div class="slider-item">
                                 <div class="card">
                                     <p class="text">
-                                        <q>Best Doctor for Skin Treatment.  Great experience with Volbella filler and the result was fantastic.</q>
+                                        <q>Best Doctor for Skin Treatment. Great experience with Volbella filler and the
+                                            result was fantastic.</q>
                                     </p>
                                     <h5 class="client-name">Mehvas Gaz</h5>
                                 </div>
@@ -1061,7 +1071,8 @@
                             <div class="slider-item">
                                 <div class="card">
                                     <p class="text">
-                                        <q>So much positivity. Thank you Dr. Zainul. The hair treatment was magical I had lost all hopes but u have really helped me😊</q>
+                                        <q>So much positivity. Thank you Dr. Zainul. The hair treatment was magical I had
+                                            lost all hopes but u have really helped me😊</q>
                                     </p>
                                     <h5 class="client-name">Naushin Sayed</h5>
                                 </div>
@@ -1072,10 +1083,10 @@
             </div>
         </div>
     </section>
- 
+
     {{-- testimonial ends --}}
 
-   
+
 
 
 

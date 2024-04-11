@@ -43,6 +43,19 @@ Route::get('images-gallery', function () {
     return view('images-gallery');
 })->name('images-gallery');
 
+Route::get('faq', function () {
+    return view('faq');
+})->name('faq');
+
+Route::get('career', function () {
+    return view('career');
+})->name('career');
+
+Route::get('blog', function () {
+    return view('blog');
+})->name('blog');
+
+
 
 
 

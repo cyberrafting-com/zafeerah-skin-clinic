@@ -290,16 +290,16 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Faq's</a>
+                                <a href="{{ route('faq')}}" class="nav-link">Faq's</a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{ route('patient-info')}}" class="nav-link">Patient Info</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Blog</a>
+                                <a href="{{ route('blog')}}" class="nav-link">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Career</a>
+                                <a href="{{ route('career')}}" class="nav-link">Career</a>
                             </li>
                             
                             <li class="nav-item">
