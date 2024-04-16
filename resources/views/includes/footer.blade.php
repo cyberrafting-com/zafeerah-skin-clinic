@@ -35,7 +35,7 @@
                                     <i class="flaticon location-pin footer-ii"></i>
                                 </div>
                                
-                                <a href="#">Byculla</a>
+                                <a href="https://maps.app.goo.gl/2adtzJVLr67Mp43h6">Byculla</a>
                                 <P>Honda Mansion, Bldg No. 332,<br>  Sir J. J. Road, Byculla, Mumbai 400 008</P>
                             </li>
 
@@ -55,7 +55,7 @@
                                     <i class="flaticon location-pin footer-ii"></i>
                                 </div>
                                
-                                <a href="#">Kamothe</a>
+                                <a href="https://maps.app.goo.gl/72FvwS9be6PUknhH7">Kamothe</a>
                                 <P>Sector - 7, Plot No.9, 1st Floor, Main Road,<br> Near Kamothe Police Station, Kamothe, <br> Navi Mumbai, Maharashtra 410 209</P>
                             </li>
 
@@ -64,7 +64,7 @@
                                     <i class="flaticon phone footer-ii"></i>
                                     </div>
                                
-                                <a href="tel:+91 9978878692">+91 9978878692
+                                <a href="tel:+917498846500">+91 7498846500
 
                                 </a>
                             </li>
@@ -78,36 +78,36 @@
                         <h3>Quick Links</h3>
                         <ul class="footer-links">
                             <li>
-                                <a href="#">Home</a>
+                                <a href="{{ route('home')}}">Home</a>
                             </li>
                             <li>
-                                <a href="#">About</a>
+                                <a href="{{ route('about')}}">About</a>
                             </li>
                             <li>
                                 <a href="#">Services</a>
                             </li>
                             <li>
-                                <a href="#">Gallery</a>
+                                <a href="{{ route('images-gallery')}}">Gallery</a>
                             </li>
                             <li>
-                                <a href="#">Faq's</a>
+                                <a href="{{ route('faq')}}">Faq's</a>
                             </li>
                             <li>
-                                <a href="#">Patient Info</a>
+                                <a href="{{ route('patient-info')}}">Patient Info</a>
                             </li>
                             <li>
-                                <a href="#">Blog</a>
+                                <a href="{{ route('blog')}}">Blog</a>
                             </li>
                             <li>
-                                <a href="#">Career</a>
+                                <a href="{{ route('career')}}">Career</a>
                             </li>
                             <li>
-                                <a href="#">Contact Us</a>
+                                <a href="{{ route('contact')}}">Contact Us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                {{-- <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                <!-- {{-- <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                     <div class="footer-widget ptb-100">
                         <h3>Services</h3>
                         <ul class="footer-links">
@@ -131,7 +131,7 @@
                             </li>
                         </ul>
                     </div>
-                </div> --}}
+                </div> --}} -->
             </div>
         </div>
         <div class="copy-right-area border-top">
@@ -141,7 +141,7 @@
                     <script>
                         document.write(new Date().getFullYear())
                     </script> 
-                    <a href="#" >
+                    <a href="{{ route('home')}}" >
                         Zafeerah Skin Clinic
                     </a>
                 </span>

@@ -1,5 +1,4 @@
 <header class="header-area">
-
     <div class="main-navbar-area">
         <div class="main-responsive-nav">
             <div class="container">
@@ -7,17 +6,17 @@
                     <div class="logo">
                         <a href="{{ route('home')}}">
                             <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}" alt="logo">
-                            {{-- <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}" alt="logo"> --}}
+                            <!--{{-- <img src="{{ asset('/resources/assets/images/zafeerah-skin-clinic-logo.png') }}" alt="logo"> --}}-->
                         </a>
                     </div>
                     <div class="side-option-responsive">
-                        {{-- <a href="#" class="side-option-button">
+                        <!-- {{-- <a href="#" class="side-option-button">
 
                             <span class="dot1"></span>
                             <span class="dot2"></span>
                             <span class="dot3"></span>
-                        </a> --}}
-                        {{-- <div class="side-option-inner">
+                        </a> --}} -->
+                        <!-- {{-- <div class="side-option-inner">
                             <div class="item">
                                 <div class="language">
                                     <a href="#language" class="language-button">Language<i
@@ -80,7 +79,7 @@
                                     </form>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div> --}} -->
                     </div>
                 </div>
             </div>
@@ -94,21 +93,21 @@
                     </a>
                     <div class="collapse navbar-collapse mean-menu">
                         <ul class="navbar-nav m-auto">
-                            {{-- <li class="nav-item">
-                                <a href="#" class="nav-link active toggle">Home<i
-                                        class="bx bx-chevron-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link active">Home Demo - 1</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="index-2.html" class="nav-link">Home Demo - 2</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="index-3.html" class="nav-link">Home Demo - 3</a>
-                                    </li>
-                                </ul>
-                            </li> --}}
+                            <!--{{-- <li class="nav-item">-->
+                            <!--    <a href="#" class="nav-link active toggle">Home<i-->
+                            <!--            class="bx bx-chevron-down"></i></a>-->
+                            <!--    <ul class="dropdown-menu">-->
+                            <!--        <li class="nav-item">-->
+                            <!--            <a href="#" class="nav-link active">Home Demo - 1</a>-->
+                            <!--        </li>-->
+                            <!--        <li class="nav-item">-->
+                            <!--            <a href="index-2.html" class="nav-link">Home Demo - 2</a>-->
+                            <!--        </li>-->
+                            <!--        <li class="nav-item">-->
+                            <!--            <a href="index-3.html" class="nav-link">Home Demo - 3</a>-->
+                            <!--        </li>-->
+                            <!--    </ul>-->
+                            <!--</li> --}}-->
                             <li class="nav-item">
                                 <a href="{{ route('home')}}" class="nav-link">Home</a>
                             </li>
@@ -118,103 +117,103 @@
                             <li class="nav-item">
                                 <a href="#" class="nav-link toggle">Services<i class="bx bx-chevron-down"></i></a>
                                 <ul class="dropdown-menu">
-                                    {{-- <li class="nav-item">
-                                        <a href="#" class="nav-link">Our Expert</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Gallery</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Appointment</a>
-                                    </li> --}}
+                                    <!--{{-- <li class="nav-item">-->
+                                    <!--    <a href="#" class="nav-link">Our Expert</a>-->
+                                    <!--</li>-->
+                                    <!--<li class="nav-item">-->
+                                    <!--    <a href="#" class="nav-link">Gallery</a>-->
+                                    <!--</li>-->
+                                    <!--<li class="nav-item">-->
+                                    <!--    <a href="#" class="nav-link">Appointment</a>-->
+                                    <!--</li> --}}-->
 
-                                    {{-- hair treatment start--}}
+                                    <!--{{-- hair treatment start--}}-->
                                     <li class="nav-item">
                                         <a href="#" class="nav-link toggle">Hair<i
                                                 class="bx bx-chevron-down"></i></a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Computerized Hair Analysis</a>
+                                                <a href="{{ route('computerized-hair-analysis')}}" class="nav-link">Computerized Hair Analysis</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Alopecia Areata</a>
+                                                <a href="{{ route('alopecia-areata-treatment')}}" class="nav-link">Alopecia Areata</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Mesotherapy</a>
+                                                <a href="{{ route('hair-mesotherapy')}}" class="nav-link">Mesotherapy</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Platelet Rich Plasma Therapy (prp)</a>
+                                                <a href="{{ route('platelet-rich-plasma-therapy-prp')}}" class="nav-link">Platelet Rich Plasma Therapy (prp)</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Laser Hair Grow(prp)</a>
+                                                <a href="{{ route('laser-hair-grow')}}" class="nav-link">Laser Hair Grow(prp)</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Scalp Micro Pigmentation (prp)</a>
+                                                <a href="{{ route('scalp-micropigmentation')}}" class="nav-link">Scalp Micro Pigmentation (prp)</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Hair Transplantation (prp)</a>
+                                                <a href="{{ route('hair-transplantation')}}" class="nav-link">Hair Transplantation (prp)</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Growth Factor Concentrate (prp)</a>
+                                                <a href="{{ route('growth-factor-concentrate')}}" class="nav-link">Growth Factor Concentrate (prp)</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    {{-- hair treatment end--}}
+                                    <!-- {{-- hair treatment end--}} -->
 
-                                    {{-- eye treatment start--}}
+                                    <!-- {{-- eye treatment start--}} -->
                                     <li class="nav-item">
                                         <a href="#" class="nav-link toggle">Eye<i
                                                 class="bx bx-chevron-down"></i></a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Dark Circle Reduction</a>
+                                                <a href="{{ route('dark-circle-treatment')}}" class="nav-link">Dark Circle Reduction</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Laser Eye Wrinkle Reduction</a>
+                                                <a href="{{ route('eye-wrinkle-treatment')}}" class="nav-link">Laser Eye Wrinkle Reduction</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Eye Bag Correction</a>
+                                                <a href="{{ route('eye-bag-correction')}}" class="nav-link">Eye Bag Correction</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Blepharoplasty (Eyelid Surgery)</a>
+                                                <a href="{{ route('blepharoplasty')}}" class="nav-link">Blepharoplasty (Eyelid Surgery)</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Crows Feet</a>
+                                                <a href="{{ route('crows-feet')}}" class="nav-link">Crows Feet</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    {{-- eye treatment end--}}
+                                    <!-- {{-- eye treatment end--}} -->
 
-                                     {{-- body treatment start--}}
+                                     <!-- {{-- body treatment start--}} -->
                                      <li class="nav-item">
                                         <a href="#" class="nav-link toggle">Body<i
                                                 class="bx bx-chevron-down"></i></a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Body Shaping & Sculpting</a>
+                                                <a href="{{ route('body-shaping-sculpting-treatment')}}" class="nav-link">Body Shaping & Sculpting</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Liposuction</a>
+                                                <a href="{{ route('liposuction')}}" class="nav-link">Liposuction</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Body Contouring</a>
+                                                <a href="{{ route('body-contouring-surgery')}}" class="nav-link">Body Contouring</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Fat Transfer & Grafting</a>
+                                                <a href="{{ route('fat-transfer-grafting-surgery')}}" class="nav-link">Fat Transfer & Grafting</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link">Stretch Mark Removal</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    {{-- body treatment end--}}
-                                    {{-- cosmetic dematology treatment start--}}
+                                    <!-- {{-- body treatment end--}}
+                                    {{-- cosmetic dematology treatment start--}} -->
                                     <li class="nav-item">
                                         <a href="#" class="nav-link toggle">Cosmetic Dermatology<i
                                                 class="bx bx-chevron-down"></i></a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Laser Hair Removal Clinic</a>
+                                                <a href="{{ route('laser-hair-removal')}}" class="nav-link">Laser Hair Removal Clinic</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link">Skin Brightening</a>
@@ -230,15 +229,15 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    {{-- cosmetic dematology treatment end--}}
+                                    <!-- {{-- cosmetic dematology treatment end--}}
 
-                                     {{-- skin treatment start--}}
+                                     {{-- skin treatment start--}} -->
                                      <li class="nav-item">
                                         <a href="#" class="nav-link toggle">Skin<i
                                                 class="bx bx-chevron-down"></i></a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Super Specialty Dermatology</a>
+                                                <a href="{{ route('super-specialty-dermatology')}}" class="nav-link">Super Specialty Dermatology</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link">Vitiligo Clinic</a>
@@ -251,8 +250,8 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    {{-- skin dematology treatment end--}}
-                                    {{-- anti-ageing treatment start--}}
+                                    <!-- {{-- skin dematology treatment end--}}
+                                    {{-- anti-ageing treatment start--}} -->
                                     <li class="nav-item">
                                         <a href="#" class="nav-link toggle">Anti-Ageing<i
                                                 class="bx bx-chevron-down"></i></a>
@@ -271,7 +270,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    {{-- anti-ageing dematology treatment end--}}
+                                    <!-- {{-- anti-ageing dematology treatment end--}} -->
 
 
                                    
@@ -307,7 +306,7 @@
                             </li>
                         </ul>
                     </div>
-                    {{-- <div class="side-option">
+                    <!-- {{-- <div class="side-option">
                         <div class="item">
                             <div class="language">
                                 <a href="#language" class="language-button">Language<i
@@ -370,7 +369,7 @@
                                 </form>
                             </div>
                         </div>
-                    </div> --}}
+                    </div> --}} -->
                 </nav>
             </div>
         </div>

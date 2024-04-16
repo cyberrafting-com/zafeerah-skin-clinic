@@ -24,3 +24,60 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+
+Redirect 301 /careers.php https://www.drzainulhamdani.com/career
+
+Redirect 301 /about.php https://www.drzainulhamdani.com/about-us
+
+Redirect 301 /contact.php https://www.drzainulhamdani.com/contact-us
+
+Redirect 301 /patient-info.php https://www.drzainulhamdani.com/patient-info
+
+Redirect 301 /gallery-videos.php https://www.drzainulhamdani.com/video-gallery
+
+Redirect 301 /blog/category/uncategorized https://www.drzainulhamdani.com/blog
+
+Redirect 301 /blog/category/treatment https://www.drzainulhamdani.com/blog
+
+Redirect 301 /alopecia-areata-treatment.php https://www.drzainulhamdani.com/hair-treatment/alopecia-areata-treatment
+
+Redirect 301 /computerized-hair-analysis.php https://www.drzainulhamdani.com/hair-treatment/computerized-hair-analysis
+
+Redirect 301 /hair-transplantation.php https://www.drzainulhamdani.com/hair-treatment/hair-transplantation
+
+Redirect 301 /hair-mesotherapy.php https://www.drzainulhamdani.com/hair-treatment/hair-mesotherapy
+
+Redirect 301 /scalp-micropigmentation.php https://www.drzainulhamdani.com/hair-treatment/scalp-micropigmentation
+
+Redirect 301 /scalp-micropigmentation.php https://www.drzainulhamdani.com/hair-treatment/scalp-micropigmentation
+
+Redirect 301 /platelet-rich-plasma-therapy-prp.php https://www.drzainulhamdani.com/hair-treatment/platelet-rich-plasma-therapy-prp
+
+Redirect 301 /dark-circle-treatment.php https://www.drzainulhamdani.com/eye-treatment/dark-circle-treatment
+
+Redirect 301 /eye-wrinkle-treatment.php https://www.drzainulhamdani.com/eye-treatment/laser-eye-wrinkle-treatment
+
+Redirect 301 /blepharoplasty.php https://www.drzainulhamdani.com/eye-treatment/blepharoplasty
+
+Redirect 301 /crows-feet.php https://www.drzainulhamdani.com/eye-treatment/crows-feet
+
+Redirect 301 /liposuction.php https://www.drzainulhamdani.com/body-treatment/liposuction
+
+Redirect 301 /eye-treatment/liposuction https://www.drzainulhamdani.com/body-treatment/liposuction
+
+Redirect 301 /body-contouring-surgery.php https://www.drzainulhamdani.com/body-treatment/body-contouring-surgery
+
+
+
+
+
+
+
+
+
+Redirect 301 /faqs.php https://www.drzainulhamdani.com/faq
+
+Redirect 301 /body-shaping-sculpting-treatment.php https://www.drzainulhamdani.com/body-treatment/body-shaping-sculpting-treatment
+
+

@@ -36,15 +36,10 @@
                             <span></span>
                         </h2>
                         <blockquote class="blockquote">
-                            Zafeerah Skin Clinic is the most ultimate option to get most reliable and reasonable skin & hair
-                            treatment in Mumbai. We understand that everyone is different, and so is the body & skin type,
-                            thus we aim to put all our experience & efforts in conveying the best achievable treatment
-                            approach. We believe in giving fast & effective skin & hair treatment using the latest
-                            technology.
+                            At Zafeerah Skin Clinic, we pride ourselves on being the ultimate destination for superior skin and hair treatments in Mumbai. Recognizing the individuality of each client, along with their unique skin and hair needs, we are committed to delivering bespoke solutions crafted through our extensive experience and dedicated efforts.
                         </blockquote>
                         <blockquote class="blockquote">
-                            Our 360 approach to providing solutions to skin & hair problems ensures that our
-                            skin & hair treatments are safe and efficient.
+                            Harnessing the latest advancements in technology, we provide fast and effective treatments that deliver exceptional results. Our comprehensive 360 approach ensures that our treatments are not only safe but also highly efficient, guaranteeing the well-being and satisfaction of our clients every step of the way. Trust Zafeerah Skin Clinic for professional care and unmatched excellence.
                         </blockquote>
                         
                         <blockquote class="blockquote">

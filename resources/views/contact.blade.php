@@ -20,7 +20,7 @@
     </div>
 </div>
 
-{{-- first address start --}}
+<!-- {{-- first address start --}} -->
 <section id="promo-contact" class="promo-contact-section pt-100 ">
     <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -54,12 +54,12 @@
                     
                 </div>
                 <div class="card mb-30">
-                    <div class="icon">
+                    <div class="icon cont1-i">
                         <img src="{{ asset('/resources/assets/images/mail-icon.png') }}" alt="Demo Image" style="width: 30px; "/>
                     </div>
                     <div class="content">
                         <h3 class="title">Reach Us Here</h3>
-                        <span class="text"><a href="mailto:drzqhamdani@gmail.com            ">drzqhamdani@gmail.com
+                        <span class="text"><a href="mailto:drzqhamdani@gmail.com">drzqhamdani@gmail.com
 
                         </a></span>
                     </div>
@@ -98,8 +98,8 @@
         </div>
     </div>
 </div>
-{{-- first address end --}}
-{{-- <section id="appointment" class="appointment-section ptb-100">
+<!-- {{-- first address end --}} -->
+<!-- {{-- <section id="appointment" class="appointment-section ptb-100">
     <div class="container">
         <div class="appointment-form">
             <div class="content">
@@ -161,8 +161,8 @@
             </form>
         </div>
     </div>
-</section> --}}
-{{-- second address start --}}
+</section> --}} -->
+<!-- {{-- second address start --}} -->
 
 <section id="promo-contact" class="promo-contact-section  ">
     <div class="container">
@@ -202,7 +202,7 @@
                     
                 </div>
                 <div class="card mb-30">
-                    <div class="icon">
+                    <div class="icon cont1-i">
                         <img src="{{ asset('/resources/assets/images/mail-icon.png') }}" alt="Demo Image" style="width: 30px; "/>
                     </div>
                     <div class="content">

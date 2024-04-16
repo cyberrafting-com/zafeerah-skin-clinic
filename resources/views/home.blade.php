@@ -4,65 +4,7 @@
 @extends('layouts.default')
 @section('content')
 
-    {{-- <div id="home" class="home-banner-area text">
-        <div class="container-fluid p-0">
-            <div class="banner-slider owl-carousel">
-                <div class="slider-item item-one">
-                    <div class="container">
-                        <div class="banner-content">
-                            <h1 class="title">
-                                Massage Treatment
-                                <span></span>
 
-                            </h1>
-                            <p class="text">
-                                It is a long established fact that a reader will be distracted by the readable content of a
-                                page when looking at its layout.
-                            </p>
-                            <div class="btn-group">
-                                <a href="#" class="primary-btn">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-item item-two">
-                    <div class="container">
-                        <div class="banner-content">
-                            <h1 class="title">
-                                Facial Treatment
-                                <span></span>
-                            </h1>
-                            <p class="text">
-                                It is a long established fact that a reader will be distracted by the readable content of a
-                                page when looking at its layout.
-                            </p>
-                            <div class="btn-group">
-                                <a href="#" class="primary-btn">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-item item-three">
-                    <div class="container">
-                        <div class="banner-content">
-                            <h1 class="title">
-                                Cellulite Removal
-                                <span></span>
-                            </h1>
-                            <p class="text">
-                                It is a long established fact that a reader will be distracted by the readable content of a
-                                page when looking at its layout.
-                            </p>
-                            <div class="btn-group">
-                                <a href="#" class="primary-btn">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div> --}}
     <section class="slider style_four nav_position_one">
 
         <div class="container-fluid">
@@ -81,7 +23,7 @@
                 <h1>Welcome To <br>
                     Zafeerah Skin Clinic</h1>
                 <p>Illuminate Your Beauty</p>
-                <a href="#">Call Now</a>
+                <a href="tel:+91 9978878692">Call Now</a>
             </div>
         </div>
     </section>
@@ -100,15 +42,11 @@
                             <span></span>
                         </h2>
                         <p class="text">
-                            Zafeerah Skin Clinic is the most ultimate option to get most reliable and reasonable skin & hair
-                            treatment in Mumbai. We understand that everyone is different, and so is the body & skin type,
-                            thus we aim to put all our experience & efforts in conveying the best achievable treatment
-                            approach. We believe in giving fast & effective skin & hair treatment using the latest
-                            technology.
+                        At Zafeerah Skin Clinic, we pride ourselves on being the ultimate destination for superior skin and hair treatments in Mumbai. Recognizing the individuality of each client, along with their unique skin and hair needs, we are committed to delivering bespoke solutions crafted through our extensive experience and dedicated efforts.
 
                         </p>
-                        <p class="text">Our 360 approach to providing solutions to skin & hair problems ensures that our
-                            skin & hair treatments are safe and efficient.
+                        <p class="text">Harnessing the latest advancements in technology, we provide fast and effective treatments that deliver exceptional results. Our comprehensive 360 approach ensures that our treatments are not only safe but also highly efficient, guaranteeing the well-being and satisfaction of our clients every step of the way. Trust Zafeerah Skin Clinic for professional care and unmatched excellence.
+
 
                         </p>
                         <ul class="content-list">
@@ -137,7 +75,7 @@
                                 </h6>
                             </li>
                         </ul>
-                        <a href="#" class="primary-btn abt-btn">Know More</a>
+                        <a href="{{ route('about')}}" class="primary-btn abt-btn">Know More</a>
                     </div>
                 </div>
             </div>
@@ -148,7 +86,7 @@
         </div>
     </section>
 
-    {{-- separet section service start --}}
+    <!-- {{-- separet section service start --}} -->
     <section id="service" class="service-section">
         <div class="container-fluid">
             <div class="row justify-content-center">
@@ -158,11 +96,11 @@
                             <img src="{{ asset('/resources/assets/images/service/hair-img.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h3 class="title"><a href="#">Hair </a></h3>
+                            <h3 class="title"><a href="{{ route('computerized-hair-analysis')}}">Hair </a></h3>
                             {{-- <p class="text">Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed diam nonumy.
                             </p> --}}
                             <div class="hover-content">
-                                <a href="#" class="primary-btn">Know More</a>
+                                <a href="{{ route('computerized-hair-analysis')}}" class="primary-btn">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -173,11 +111,11 @@
                             <img src="{{ asset('/resources/assets/images/service/skin-img.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h3 class="title"><a href="#">Skin</a></h3>
+                            <h3 class="title"><a href="{{ route('super-specialty-dermatology')}}">Skin</a></h3>
                             {{-- <p class="text">Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed diam nonumy.
                             </p> --}}
                             <div class="hover-content">
-                                <a href="#" class="primary-btn">Know More</a>
+                                <a href="{{ route('super-specialty-dermatology')}}" class="primary-btn">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -188,11 +126,11 @@
                             <img src="{{ asset('/resources/assets/images/service/body-img.png') }}" alt="">
                         </div>
                         <div class="content">
-                            <h3 class="title"><a href="#">Body</a></h3>
+                            <h3 class="title"><a href="{{ route('body-shaping-sculpting-treatment')}}">Body</a></h3>
                             {{-- <p class="text">Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed diam nonumy.
                             </p> --}}
                             <div class="hover-content">
-                                <a href="#" class="primary-btn">Know More</a>
+                                <a href="{{ route('body-shaping-sculpting-treatment')}}" class="primary-btn">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -205,38 +143,24 @@
                                 alt="">
                         </div>
                         <div class="content">
-                            <h3 class="title"><a href="#">Cosmetic Dermatology</a></h3>
+                            <h3 class="title"><a href="{{ route('laser-hair-removal')}}">Cosmetic Dermatology</a></h3>
                             {{-- <p class="text">Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed diam nonumy.
                             </p> --}}
                             <div class="hover-content">
-                                <a href="#" class="primary-btn">Know More</a>
+                                <a href="{{ route('laser-hair-removal')}}" class="primary-btn">Know More</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                {{-- <div class="col p-0">
-                    <div class="card">
-                        <div class="image">
-                            <img src="{{ asset('/resources/assets/images/service/service5.jpg') }}" alt="#">
-                        </div>
-                        <div class="content">
-                            <h3 class="title"><a href="#">Anti-Ageing</a></h3>
-                            <p class="text">Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed diam nonumy.
-                            </p>
-                            <div class="hover-content">
-                                <a href="#" class="primary-btn">Know More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
+               
             </div>
         </div>
     </section>
-    {{-- separet section service end --}}
+    <!-- {{-- separet section service end --}} -->
 
-    {{-- why choose us start --}}
+    <!-- {{-- why choose us start --}} -->
     <section id="service" class="service-section-four pt-70 ">
         <div class="container">
             <div class="section-title">
@@ -337,10 +261,10 @@
             </div>
         </div>
     </section>
-    {{-- why choose us end --}}
+    <!-- {{-- why choose us end --}} -->
 
 
-    {{-- treatment section start --}}
+    <!-- {{-- treatment section start --}} -->
     <section id="gallery" class="gallery-section pt-50 pb-60 ">
         <div class="container">
             <div class="section-title">
@@ -387,26 +311,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Computerized Hair Analysis</a></h3>
-                                    {{-- <p>Computerized hair analysis is a sophisticated method used to assess the health and condition of hair and scalp.</p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p>Computerized hair analysis is a sophisticated method used to assess the health and condition of hair and scalp.</p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-lg-4 col-md-6">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/alopecia-areata.jpg') }}"
-                                        alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Alopecia Areata</a></h3>
-                                    <p>Alopecia areata is a common autoimmune condition affecting millions worldwide, leading to sudden hair loss in localized or widespread areas. 
-                                    </p>
-                                    <a href="#"> <span class="price">Know More</span></a>
-                                </div>
-                            </div>
-                        </div> --}}
+                       
                         <div class="col-lg-4 col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
@@ -415,53 +325,29 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Mesotherapy</a></h3>
-                                    {{-- <p>Mesotherapy has gained popularity as a minimally invasive cosmetic procedure aimed at rejuvenating the skin, promoting hair growth, and addressing various aesthetic concerns. 
-                                    </p> --}}
-                                    {{-- <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p>Mesotherapy has gained popularity as a minimally invasive cosmetic procedure aimed at rejuvenating the skin, promoting hair growth, and addressing various aesthetic concerns. 
+                                    </p> --}} -->
+                                    <!-- {{-- <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-lg-4 col-md-6">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/platelet-rich plasma-therapy (prp).jpg') }}"
-                                        alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Platelet Rich Plasma Therapy (prp)</a></h3>
-                                 
-                                </div>
-                            </div>
-                        </div> --}}
+                       
                         <div class="col-lg-4 col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/laser-hair-grow-(prp).jpg') }}"
                                         alt="#">
-                                    {{-- --}}
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Laser Hair Grow(prp)</a></h3>
-                                    {{-- <p>Laser hair growth therapy, also known as low-level laser therapy (LLLT) or photobiomodulation therapy, is a non-invasive procedure aimed at stimulating hair follicles, promoting hair regrowth, and improving overall hair health.</p> --}}
-                                    {{-- <a href="#"> <span class="price">Know More</span></a> --}}
-                                </div>
-                            </div>
-                        </div>
-                        {{-- <div class="col-lg-4 col-md-6">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/hair-transplantation-(prp).jpg') }}"
-                                        alt="#">
                                    
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Hair Transplantation (prp)</a></h3>
-                                 
+                                    <h3 class="title"><a href="#">Laser Hair Grow(prp)</a></h3>
+                                    <!-- {{-- <p>Laser hair growth therapy, also known as low-level laser therapy (LLLT) or photobiomodulation therapy, is a non-invasive procedure aimed at stimulating hair follicles, promoting hair regrowth, and improving overall hair health.</p> --}} -->
+                                    <!-- {{-- <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
-                        </div> --}}
-                        <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
+                        </div>
+                       
+                        <span class="view-span"> <a href="{{ route('computerized-hair-analysis')}}" class="view-btn"> View More</a></span>
                     </div>
 
                 </div>
@@ -486,69 +372,31 @@
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/laser-eye-wrinkle-reduction.jpg') }}"
                                         alt="#">
-                                    {{-- --}}
+                                    
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Laser Eye Wrinkle Reduction</a></h3>
-                                    {{-- <p>Laser Eye Wrinkle Reduction is a cosmetic technique that utilizes advanced laser technology to target and reduce wrinkles, fine lines, and various other symptoms of ageing around the eyes.</p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p>Laser Eye Wrinkle Reduction is a cosmetic technique that utilizes advanced laser technology to target and reduce wrinkles, fine lines, and various other symptoms of ageing around the eyes.</p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-md-4">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
-                                        alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Eye Bag Correction</a></h3>
-                                  
-                                </div>
-                            </div>
-                        </div> --}}
+                       
                         <div class="col-md-4">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/blepharoplasty.jpg') }}" alt="#">
-                                    {{-- --}}
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Blepharoplasty (Eyelid Surgery)</a></h3>
-                                    {{-- <p>Blepharoplasty is a surgical procedure performed to enrich the appearance of the eyelids by removing all the unwanted skin, muscle, and fat. It can be performed on the upper eyelids, lower eyelids, or both, based on the patient's specific needs and goals. </p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
-                                </div>
-                            </div>
-                        </div>
-                        {{-- <div class="col-md-4">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
-                                        alt="#">
-                                  
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Crows Feet</a></h3>
-                                  
-                                </div>
-                            </div>
-                        </div> --}}
-                        {{-- <div class="col-md-6">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg')}}" alt="#">
                                    
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Facial Treatment</a></h3>
-                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-                                    </p>
-                                     <a href="#"> <span class="price">Know More</span></a>
+                                    <h3 class="title"><a href="#">Blepharoplasty (Eyelid Surgery)</a></h3>
+                                    <!-- {{-- <p>Blepharoplasty is a surgical procedure performed to enrich the appearance of the eyelids by removing all the unwanted skin, muscle, and fat. It can be performed on the upper eyelids, lower eyelids, or both, based on the patient's specific needs and goals. </p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
-                        </div> --}}
-                        <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
+                        </div>
+                       
+                        <span class="view-span"> <a href="{{ route('dark-circle-treatment')}}" class="view-btn"> View More</a></span>
                     </div>
 
                 </div>
@@ -568,7 +416,7 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-lg-4 col-md-4 col-sm-12">
+                        <!-- {{-- <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -580,7 +428,7 @@
                                   
                                 </div>
                             </div>
-                        </div> --}}
+                        </div> --}} -->
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
@@ -590,12 +438,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Body Contouring</a></h3>
-                                    {{-- <p>Body contouring encompasses a variety of surgical and non-surgical procedures to reshape and enhance the body's contours. </p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p>Body contouring encompasses a variety of surgical and non-surgical procedures to reshape and enhance the body's contours. </p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-lg-4 col-md-4 col-sm-12">
+                        <!-- {{-- <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
@@ -607,7 +455,7 @@
                                   
                                 </div>
                             </div>
-                        </div> --}}
+                        </div> --}} -->
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
@@ -617,12 +465,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Stretch Mark Removal</a></h3>
-                                    {{-- <p>Stretch marks are a type of scarring that occurs when the skin is stretched suddenly due to factors such as pregnancy, rapid weight gain or loss, puberty, or certain medical conditions. </p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p>Stretch marks are a type of scarring that occurs when the skin is stretched suddenly due to factors such as pregnancy, rapid weight gain or loss, puberty, or certain medical conditions. </p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-md-6">
+                        <!-- {{-- <div class="col-md-6">
                             <div class="card mb-30">
                                 <div class="image">
                                     <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg')}}" alt="#">
@@ -635,8 +483,8 @@
                                      <a href="#"> <span class="price">Know More</span></a>
                                 </div>
                             </div>
-                        </div> --}}
-                        <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
+                        </div> --}} -->
+                        <span class="view-span"> <a href="{{ route('body-shaping-sculpting-treatment')}}" class="view-btn"> View More</a></span>
                     </div>
 
                 </div>
@@ -651,8 +499,8 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Laser Hair Removal Clinic</a></h3>
-                                    {{-- <p>Laser hair removal is a technique that uses concentrated beams of light or laser to target and damage hair follicles, preventing future hair growth.</p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p>Laser hair removal is a technique that uses concentrated beams of light or laser to target and damage hair follicles, preventing future hair growth.</p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
@@ -665,37 +513,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Skin Brightening</a></h3>
-                                    {{-- <p>Skin brightening is a cosmetic technique designed to lighten and even out skin tone, reduce hyperpigmentation, and enhance overall radiance. </p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p>Skin brightening is a cosmetic technique designed to lighten and even out skin tone, reduce hyperpigmentation, and enhance overall radiance. </p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
-                                        alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Laser Tattoo Removal</a></h3>
-                                  
-                                </div>
-                            </div>
-                        </div> --}}
-                        {{-- <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
-                                        alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Moles And Skin Tag Removal</a></h3>
-                                   
-                                </div>
-                            </div>
-                        </div> --}}
+                       
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
@@ -704,44 +527,19 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Botox</a></h3>
-                                    {{-- <p>Botox is a neurotoxic compound produced by the bacterium Clostridium botulinum. While this may sound alarming, Botox is used in minuscule amounts for medical and cosmetic purposes.</p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p>Botox is a neurotoxic compound produced by the bacterium Clostridium botulinum. While this may sound alarming, Botox is used in minuscule amounts for medical and cosmetic purposes.</p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-md-6">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg')}}" alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Facial Treatment</a></h3>
-                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-                                    </p>
-                                     <a href="#"> <span class="price">Know More</span></a>
-                                </div>
-                            </div>
-                        </div> --}}
-                        <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
+                       
+                        <span class="view-span"> <a href="{{ route('laser-hair-removal')}}" class="view-btn"> View More</a></span>
                     </div>
 
                 </div>
                 <div class="tab-pane" id="tab5" role="tabpanel" aria-labelledby="skin-tab">
                     <div class="row justify-content-center">
-                        {{-- <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
-                                        alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Super Specialty Dermatology</a></h3>
-                                   
-                                </div>
-                            </div>
-                        </div> --}}
+                        
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
@@ -783,54 +581,15 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-md-6">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg')}}" alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Botox</a></h3>
-                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-                                    </p>
-                                     <a href="#"> <span class="price">Know More</span></a>
-                                </div>
-                            </div>
-                        </div> --}}
-                        {{-- <div class="col-md-6">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg')}}" alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Facial Treatment</a></h3>
-                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-                                    </p>
-                                     <a href="#"> <span class="price">Know More</span></a>
-                                </div>
-                            </div>
-                        </div> --}}
+                        
+                      
                         <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
                     </div>
 
                 </div>
                 <div class="tab-pane" id="tab6" role="tabpanel" aria-labelledby="anti-ageing-tab">
                     <div class="row justify-content-center">
-                        {{-- <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg') }}"
-                                        alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">3D Face Lift</a></h3>
-                                    <p></p>
-                                    <a href="#"> <span class="price">Know More</span></a>
-                                </div>
-                            </div>
-                        </div> --}}
+                       
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="card mb-30">
                                 <div class="image">
@@ -840,8 +599,8 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Skin Tightening Medifacial</a></h3>
-                                    {{-- <p></p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p></p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
@@ -853,8 +612,8 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">HIFU</a></h3>
-                                    {{-- <p></p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p></p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
@@ -866,39 +625,12 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="title"><a href="#">Ultherapy</a></h3>
-                                    {{-- <p></p>
-                                    <a href="#"> <span class="price">Know More</span></a> --}}
+                                    <!-- {{-- <p></p>
+                                    <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col-md-6">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg')}}" alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Botox</a></h3>
-                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-                                    </p>
-                                     <a href="#"> <span class="price">Know More</span></a>
-                                </div>
-                            </div>
-                        </div> --}}
-                        {{-- <div class="col-md-6">
-                            <div class="card mb-30">
-                                <div class="image">
-                                    <img src="{{ asset('/resources/assets/images/skin-condition-diseases-treatment-services.jpg')}}" alt="#">
-                                   
-                                </div>
-                                <div class="content">
-                                    <h3 class="title"><a href="#">Facial Treatment</a></h3>
-                                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-                                    </p>
-                                     <a href="#"> <span class="price">Know More</span></a>
-                                </div>
-                            </div>
-                        </div> --}}
+                       
                         <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
                     </div>
 
@@ -907,16 +639,16 @@
 
         </div>
     </section>
-    {{-- treatment section end --}}
+    <!-- {{-- treatment section end --}} -->
 
-    {{-- blog start --}}
+    <!-- {{-- blog start --}} -->
     <section id="blog" class="blog-section pt-70">
         <div class="container-fluid">
             <div class="section-title">
                 <h2 class="title">Blog<span></span> </h2>
-                {{-- <p>
+                <!-- {{-- <p>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.
-                </p> --}}
+                </p> --}} -->
             </div>
         </div>
         <div class="row">
@@ -935,10 +667,10 @@
                             <hr>
                             <ul class="info-list">
                                 <li>Dr Zainul Hamdani</li>
-                                {{-- <li>24 Comment</li> --}}
+                                <!-- {{-- <li>24 Comment</li> --}} -->
 
                                 <div class="cta-btn">
-                                    <a href="#" class="btn-text read-more-btn">Read More<i
+                                    <a href="{{ route('blog')}}" class="btn-text read-more-btn">Read More<i
                                             class="bx bxs-right-arrow-alt"></i></a>
                                 </div>
                             </ul>
@@ -958,10 +690,10 @@
                             <hr>
                             <ul class="info-list">
                                 <li>Dr Zainul Hamdani</li>
-                                {{-- <li>24 Comment</li> --}}
+                                <!-- {{-- <li>24 Comment</li> --}} -->
 
                                 <div class="cta-btn">
-                                    <a href="#" class="btn-text read-more-btn">Read More<i
+                                    <a href="{{ route('blog')}}" class="btn-text read-more-btn">Read More<i
                                             class="bx bxs-right-arrow-alt"></i></a>
                                 </div>
                             </ul>
@@ -980,10 +712,10 @@
                             <hr>
                             <ul class="info-list">
                                 <li>Dr Zainul Hamdani</li>
-                                {{-- <li>24 Comment</li> --}}
+                                <!-- {{-- <li>24 Comment</li> --}} -->
 
                                 <div class="cta-btn">
-                                    <a href="#" class="btn-text read-more-btn">Read More<i
+                                    <a href="{{ route('blog')}}" class="btn-text read-more-btn">Read More<i
                                             class="bx bxs-right-arrow-alt"></i></a>
                                 </div>
                             </ul>
@@ -1004,9 +736,9 @@
             </div>
         </div>
     </section>
-    {{-- blog end --}}
+    <!-- {{-- blog end --}} -->
 
-    {{-- testimonial start --}}
+    <!-- {{-- testimonial start --}} -->
     <section id="testimonial" class="testimonial-section pb-100">
         <div class="container">
             <div class="container-inner">
@@ -1019,14 +751,14 @@
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <div class="content">
-                            {{-- <div class="quote">
+                            <!-- {{-- <div class="quote">
                                 <i class="bx bxs-quote-alt-right"></i>
                                 <img src="assets/images/shape2.png" alt="Shape Image">
                                 <span class="top"></span>
                                 <span class="left"></span>
                                 <span class="right"></span>
                                 <span class="bottom"></span>
-                            </div> --}}
+                            </div> --}} -->
                             <h2 class="title">What Our Clients Say<span></span> </h2>
                         </div>
                         <div class="testimonial-slider owl-carousel">
@@ -1084,7 +816,7 @@
         </div>
     </section>
 
-    {{-- testimonial ends --}}
+    <!-- {{-- testimonial ends --}} -->
 
 
 

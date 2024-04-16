@@ -55,8 +55,83 @@ Route::get('blog', function () {
     return view('blog');
 })->name('blog');
 
+Route::get('hair-treatment/computerized-hair-analysis', function () {
+    return view('computerized-hair-analysis');
+})->name('computerized-hair-analysis');
+
+Route::get('hair-treatment/alopecia-areata-treatment', function () {
+    return view('alopecia-areata-treatment');
+})->name('alopecia-areata-treatment');
+
+Route::get('hair-treatment/hair-mesotherapy', function () {
+    return view('hair-mesotherapy');
+})->name('hair-mesotherapy');
+
+Route::get('hair-treatment/platelet-rich-plasma-therapy-prp', function () {
+    return view('platelet-rich-plasma-therapy-prp');
+})->name('platelet-rich-plasma-therapy-prp');
+
+Route::get('hair-treatment/laser-hair-grow', function () {
+    return view('laser-hair-grow');
+})->name('laser-hair-grow');
+
+Route::get('hair-treatment/scalp-micropigmentation', function () {
+    return view('scalp-micropigmentation');
+})->name('scalp-micropigmentation');
+
+Route::get('hair-treatment/hair-transplantation', function () {
+    return view('hair-transplantation');
+})->name('hair-transplantation');
+
+Route::get('hair-treatment/growth-factor-concentrate', function () {
+    return view('growth-factor-concentrate');
+})->name('growth-factor-concentrate');
+
+Route::get('eye-treatment/dark-circle-treatment', function () {
+    return view('dark-circle-treatment');
+})->name('dark-circle-treatment');
+
+Route::get('eye-treatment/laser-eye-wrinkle-treatment', function () {
+    return view('eye-wrinkle-treatment');
+})->name('eye-wrinkle-treatment');
+
+Route::get('eye-treatment/eye-bag-correction', function () {
+    return view('eye-bag-correction');
+})->name('eye-bag-correction');
+
+Route::get('eye-treatment/blepharoplasty', function () {
+    return view('blepharoplasty');
+})->name('blepharoplasty');
+
+Route::get('eye-treatment/crows-feet', function () {
+    return view('crows-feet');
+})->name('crows-feet');
+
+Route::get('body-treatment/body-shaping-sculpting-treatment', function () {
+    return view('body-shaping-sculpting-treatment');
+})->name('body-shaping-sculpting-treatment');
+
+Route::get('body-treatment/liposuction', function () {
+    return view('liposuction');
+})->name('liposuction');
+
+Route::get('body-treatment/body-contouring-surgery', function () {
+    return view('body-contouring-surgery');
+})->name('body-contouring-surgery');
+
+Route::get('body-treatment/fat-transfer-grafting-surgery', function () {
+    return view('fat-transfer-grafting-surgery');
+})->name('fat-transfer-grafting-surgery');
 
 
+
+Route::get('cosmetic-dermatology-treatment/laser-hair-removal', function () {
+    return view('laser-hair-removal');
+})->name('laser-hair-removal');
+
+Route::get('skin-treatment/super-specialty-dermatologyt', function () {
+    return view('super-specialty-dermatology');
+})->name('super-specialty-dermatology');
 
 
 
