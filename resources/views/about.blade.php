@@ -8,7 +8,7 @@
 <div class="page-title-area">
     <div class="container">
         <div class="page-title-content">
-            <h1>About us </h1>
+            <h1>About Us </h1>
             <ul>
                 <li class="item"><a href="{{ route('home')}}">Home</a></li>
                 <li class="item active"><span></span>About Us</li>
