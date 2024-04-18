@@ -1,29 +1,26 @@
 <aside class="aside-widget-area">
 
     <div class="widget widget-category mb-30">
-        <h3 class="title">Skin Services</h3>
+        <h3 class="title">Anti-Ageing Services</h3>
         <ul class="nav-list">
             <li class="">
-                <a href="{{ route('super-specialty-dermatology')}}">Super Specialty Dermatology
-
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('vitiligo')}}">Vitiligo (Skin Fading) Treatment
-
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('acne-scars-pigmentation')}}">Acne Scar Treatment
-
-                </a>
-            </li>
-            <li>
-                <a href="{{ route('warts')}}">Warts
+                <a href="{{ route('3d-face-lift')}}">3D Face Lift
 
                 </a>
             </li>
           
+            <li>
+                <a href="{{ route('skin-tightening-medifacial')}}">Skin Tightening Medifacial
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('hifu')}}">HIFU
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('ultherapy')}}">Ultherapy
+                </a>
+            </li>
             
         </ul>
     </div>

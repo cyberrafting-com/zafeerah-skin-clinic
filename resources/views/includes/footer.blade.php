@@ -44,7 +44,7 @@
                                     <i class="flaticon phone footer-ii"></i>
                                     </div>
                                
-                                <a href="tel:+91 9978878692">+91 9978878692
+                                <a href="tel:+919978878692">+91 9978878692
 
                                 </a>
                             </li>
@@ -84,7 +84,7 @@
                                 <a href="{{ route('about')}}">About</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href="{{ route('computerized-hair-analysis')}}">Services</a>
                             </li>
                             <li>
                                 <a href="{{ route('images-gallery')}}">Gallery</a>

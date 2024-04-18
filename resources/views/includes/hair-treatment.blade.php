@@ -3,7 +3,7 @@
     <div class="widget widget-category mb-30">
         <h3 class="title">Hair Service Category</h3>
         <ul class="nav-list">
-            <li class="active">
+            <li class="">
                 <a href="{{ route('computerized-hair-analysis')}}">Computerized Hair Analysis</a>
             </li>
             <li>
@@ -32,24 +32,24 @@
     <div class="widget widget-category mb-30">
         <h3 class="title">Other Services </h3>
         <ul class="nav-list">
-            <li class="active">
+            <li class="">
                 <a href="{{ route('computerized-hair-analysis')}}">Hair</a>
             </li>
             <li >
-                <a href="#">Eye</a>
+                <a href="{{ route('dark-circle-treatment')}}">Eye</a>
             </li>
             <li>
-                <a href="#">Body</a>
+                <a href="{{ route('body-shaping-sculpting-treatment')}}">Body</a>
             </li>
            
             <li>
-                <a href="#">Cosmetic Dermatology</a>
+                <a href="{{ route('laser-hair-removal')}}">Cosmetic Dermatology</a>
             </li>
             <li>
-                <a href="#">Skin</a>
+                <a href="{{ route('super-specialty-dermatology')}}">Skin</a>
             </li>
             <li>
-                <a href="#">Anti-Ageing</a>
+                <a href="{{ route('3d-face-lift')}}">Anti-Ageing</a>
             </li>
           
         </ul>
