@@ -31,7 +31,7 @@
 
                                 <div class="content">
                                     <h3>
-                                        <a href="#">Dermal
+                                        <a href="{{ route('derma-filler')}}">Dermal
                                             Fillers – 6 Things you Should Know</a>
                                     </h3>
 
@@ -41,7 +41,7 @@
 
                                 <div class="content">
                                     <h3>
-                                        <a href="#">Different Types of Skin Blemishes and its Treatments – Get Blemish
+                                        <a href="{{ route('different-type-of-skin-blemishes')}}">Different Types of Skin Blemishes and its Treatments – Get Blemish
                                             Free Skin</a>
                                     </h3>
 
@@ -51,7 +51,7 @@
 
                                 <div class="content">
                                     <h3>
-                                        <a href="#">Fungal Skin Infection: Treatment & Prevention</a>
+                                        <a href="{{ route('fungle-skin-infection')}}">Fungal Skin Infection: Treatment & Prevention</a>
                                     </h3>
 
                                 </div>
@@ -60,7 +60,7 @@
 
                                 <div class="content">
                                     <h3>
-                                        <a href="#">Vitiligo Treatment at Zafeerah Skin Clinic</a>
+                                        <a href="{{ route('vitiligo-treatment') }}">Vitiligo Treatment at Zafeerah Skin Clinic</a>
                                     </h3>
 
                                 </div>
@@ -72,7 +72,7 @@
 
                                 <div class="content">
                                     <h3>
-                                        <a href="#">Treatment</a>
+                                        <a href="{{ route('derma-filler')}}">Treatment</a>
                                     </h3>
 
                                 </div>
@@ -81,7 +81,7 @@
 
                                 <div class="content">
                                     <h3>
-                                        <a href="#">Uncategorized</a>
+                                        <a href="{{ route('derma-filler')}}">Uncategorized</a>
                                     </h3>
 
                                 </div>
@@ -98,14 +98,14 @@
                             <div class="col-md-6 col-sm-12">
                                 <div class="card mb-30">
                                     <div class="image">
-                                        <a href="#"><img
+                                        <a href="{{ route('derma-filler')}}"><img
                                                 src="{{ asset('/resources/assets/images/blog/dermal-fillers-blog.png') }}"
                                                 alt="dermal-fillers-blog"></a>
                                     </div>
                                     <div class="content">
                                         <span class="time">August 24, 2020</span>
                                         <h3 class="title">
-                                            <a href="#">Dermal
+                                            <a href="{{ route('derma-filler')}}">Dermal
                                                 Fillers – 6 Things you Should Know
                                                 &ZeroWidthSpace;</a>
                                             <span></span>
@@ -123,7 +123,7 @@
                                             {{-- <li>24 Comment</li> --}}
 
                                             <div class="cta-btn">
-                                                <a href="#" class="btn-text read-more-btn">Read More<i
+                                                <a href="{{ route('derma-filler')}}" class="btn-text read-more-btn">Read More<i
                                                         class="bx bxs-right-arrow-alt"></i></a>
                                             </div>
                                         </ul>
@@ -133,7 +133,7 @@
                             <div class="col-md-6 col-sm-12">
                                 <div class="card mb-30">
                                     <div class="image">
-                                        <a href="#"><img
+                                        <a href="{{ route('fungle-skin-infection')}}"><img
                                                 src="{{ asset('/resources/assets/images/blog/fungal-skin infection-blog.png') }}"
                                                 alt="fungal-skin infection-blog"></a>
                                         <span></span>
@@ -141,7 +141,7 @@
                                     <div class="content">
                                         <span class="time">June 15, 2020 </span>
                                         <h3 class="title">
-                                            <a href="#">Fungal Skin
+                                            <a href="{{ route('fungle-skin-infection')}}">Fungal Skin
                                                 Infection: Treatment & Prevention</a>
                                             <span></span>
                                         </h3>
@@ -158,7 +158,7 @@
                                             {{-- <li>24 Comment</li> --}}
 
                                             <div class="cta-btn">
-                                                <a href="#"
+                                                <a href="{{ route('fungle-skin-infection')}}"
                                                     class="btn-text read-more-btn">Read More<i
                                                         class="bx bxs-right-arrow-alt"></i></a>
                                             </div>
@@ -169,14 +169,14 @@
                             <div class="col-md-6 col-sm-12">
                                 <div class="card mb-30">
                                     <div class="image">
-                                        <a href=""><img
+                                        <a href="{{ route('different-type-of-skin-blemishes')}}"><img
                                                 src="{{ asset('/resources/assets/images/blog/different-types-of-skin-blemishes-blog.png') }}"
                                                 alt="different-types-of skin-blemishes-blog"></a>
                                     </div>
                                     <div class="content">
                                         <span class="time">July 28, 2020</span>
                                         <h3 class="title">
-                                            <a href="">Different Types of Skin Blemishes and its Treatments – Get
+                                            <a href="{{ route('different-type-of-skin-blemishes')}}">Different Types of Skin Blemishes and its Treatments – Get
                                                 Blemish Free
                                                 Skin</a>
                                             <span></span>
@@ -194,7 +194,7 @@
                                             {{-- <li>24 Comment</li> --}}
 
                                             <div class="cta-btn">
-                                                <a href="" class="btn-text read-more-btn">Read More<i
+                                                <a href="{{ route('different-type-of-skin-blemishes')}}" class="btn-text read-more-btn">Read More<i
                                                         class="bx bxs-right-arrow-alt"></i></a>
                                             </div>
                                         </ul>
@@ -204,30 +204,26 @@
                             <div class="col-md-6 col-sm-12">
                                 <div class="card mb-30">
                                     <div class="image">
-                                        <a href="#"><img
+                                        <a href="{{ route('vitiligo-treatment') }}"><img
                                                 src="{{ asset('/resources/assets/images/blog/vitiligo-treatment-blog.png') }}"
                                                 alt="vitiligo-treatment-blog"></a>
                                     </div>
                                     <div class="content">
                                         <span class="time">April 16, 2020</span>
                                         <h3 class="title">
-                                            <a href="#">Vitiligo Treatment at Zafeerah Skin Clinic</a>
+                                            <a href="{{ route('vitiligo-treatment') }}">Vitiligo Treatment at Zafeerah Skin Clinic</a>
                                             <span></span>
                                         </h3>
-                                        <p class="text">Is VITILIGO leaving a patch on your Life?Treat it effectively with
-                                            medication. Here is a perfect vitiligo transformation story of our young
-                                            patient. Call: 9978878692 / 7498846500 to Consult Online. #Vitiligo
-                                            #VitiligoTreatment #Transformation #vitiligocured #OnlineConsultation
-                                            #ConsultOnline #DermatologyOnline #TeleMedicine #TeleConsulting
-                                            #StayHomeStaySafe #ZafeerahSkinClinic #SkinClinic #SkinSpecialist #SkinCare
-                                            #Kamothe #Byculla #MumbaiCentral #Kharghar #NaviMumbai #Mumbai</p>
+                                        <p class="text">Is VITILIGO leaving a patch on your Life?Treat it effectively with medication. Here is a perfect vitiligo transformation story of our young patient. Call: 9978878692 / 7498846500 to Consult Online. #Vitiligo #VitiligoTreatment #Transformation #vitiligocured #OnlineConsultation #ConsultOnline #DermatologyOnline #TeleMedicine #TeleConsulting #StayHomeStaySafe #ZafeerahSkinClinic #SkinClinic #SkinSpecialist #SkinCare #Kamothe #Byculla #MumbaiCentral #Kharghar #NaviMumbai #Mumbai
+
+                                        </p>
                                         <hr>
                                         <ul class="info-list">
                                             <li>Dr Zainul Hamdani</li>
                                             {{-- <li>24 Comment</li> --}}
 
                                             <div class="cta-btn">
-                                                <a href="#" class="btn-text read-more-btn">Read More<i
+                                                <a href="{{ route('vitiligo-treatment') }}" class="btn-text read-more-btn">Read More<i
                                                         class="bx bxs-right-arrow-alt"></i></a>
                                             </div>
                                         </ul>

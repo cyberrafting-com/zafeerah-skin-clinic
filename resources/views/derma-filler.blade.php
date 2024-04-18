@@ -8,17 +8,17 @@
 <div class="page-title-area">
     <div class="container">
         <div class="page-title-content">
-            <h1>Different Types of Skin Blemishes and its Treatments 
+            <h1>Dermal Fillers – 6 Things you Should Know​
             </h1>
             <ul>
                 <li class="item"><a href="{{ route('home') }}">Home</a></li>
-                <li class="item active"><span></span>Different Types of Skin Blemishes and its Treatments
+                <li class="item active"><span></span>Dermal Fillers – 6 Things you Should Know​
                 </li>
             </ul>
         </div>
     </div>
     <div class="bg-image">
-        <img src="{{ asset('/resources/assets/images/breadscrumb-img.png') }}" alt="breadscrumb-img">
+        <img src="{{ asset('/resources/assets/images/breadscrumb-img.png') }}" alt="computerized-hair-analysis-IMG">
     </div>
 </div>
 
@@ -31,61 +31,41 @@
                     <div class="widget widget-post mb-30">
                         <h3 class="title">Recent Post</h3>
                         <article class="article-item">
-                            {{-- <div class="image">
-                                <a href="#"><img src="{{ asset('/resources/assets/images/blog/blog-sm-1.jpg')}}"
-                                        alt="Demo Image"></a>
-                            </div> --}}
+                           
                             <div class="content">
                                 <h3>
-                                    <a href="{{ route('blog-dermal-fillers-6-things-you-should-know​') }}">Dermal
+                                    <a href="{{ route('derma-filler')}}">Dermal
                                         Fillers – 6 Things you Should Know</a>
                                 </h3>
-                                {{-- <div class="author">
-                                    By Courtney McKenzie
-                                </div> --}}
+                              
                             </div>
                         </article>
                         <article class="article-item">
-                            {{-- <div class="image">
-                                <a href="#"><img src="{{ asset('/resources/assets/images/blog/blog-sm-2.jpg')}}"
-                                        alt="Demo Image"></a>
-                            </div> --}}
+                           
                             <div class="content">
                                 <h3>
-                                    <a href="{{ route('blog-different-types-of-skin-blemishes-its-treatments-get-blemish-free-skin') }}">Different Types of Skin Blemishes and its Treatments – Get Blemish
+                                    <a href="{{ route('different-type-of-skin-blemishes')}}">Different Types of Skin Blemishes and its Treatments – Get Blemish
                                         Free Skin</a>
                                 </h3>
-                                {{-- <div class="author">
-                                    By Alexandra Morton
-                                </div> --}}
+                              
                             </div>
                         </article>
                         <article class="article-item">
-                            {{-- <div class="image">
-                                <a href="#"><img src="{{ asset('/resources/assets/images/blog/blog-sm-3.jpg')}}"
-                                        alt="Demo Image"></a>
-                            </div> --}}
+                           
                             <div class="content">
                                 <h3>
-                                    <a href="{{ route('fungal-skin-infection-treatment-prevention') }}">Fungal Skin Infection: Treatment & Prevention</a>
+                                    <a href="{{ route('fungle-skin-infection')}}">Fungal Skin Infection: Treatment & Prevention</a>
                                 </h3>
-                                {{-- <div class="author">
-                                    By Lydia Birch
-                                </div> --}}
+                               
                             </div>
                         </article>
                         <article class="article-item">
-                            {{-- <div class="image">
-                                <a href="#"><img src="{{ asset('/resources/assets/images/blog/blog-sm-4.jpg')}}"
-                                        alt="Demo Image"></a>
-                            </div> --}}
+                          
                             <div class="content">
                                 <h3>
-                                    <a href="{{ route('blog-vitiligo-treatment') }}">Vitiligo Treatment at Zafeerah Skin Clinic</a>
+                                    <a href="{{ route('vitiligo-treatment') }}">Vitiligo Treatment at Zafeerah Skin Clinic</a>
                                 </h3>
-                                {{-- <div class="author">
-                                    By Jasmine Page
-                                </div> --}}
+                               
                             </div>
                         </article>
                     </div>
