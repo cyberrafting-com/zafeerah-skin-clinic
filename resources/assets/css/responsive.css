@@ -1381,6 +1381,9 @@
 }
 
 @media (max-width:768px) {
+    .page-title-area .page-title-content h1 {
+        font-size: 26px;
+    }
     .wrapper {
         margin-bottom: 20px;
     }

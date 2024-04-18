@@ -179,6 +179,22 @@ Route::get('anti-angeing/ultherapy', function () {
     return view('ultherapy');
 })->name('ultherapy');
 
+Route::get('blog/derma-filler', function () {
+    return view('derma-filler');
+})->name('derma-filler');
+
+Route::get('blog/fungle-skin-infection', function () {
+    return view('fungle-skin-infection');
+})->name('fungle-skin-infection');
+
+Route::get('blog/different-type-of-skin-blemishes', function () {
+    return view('different-type-of-skin-blemishes');
+})->name('different-type-of-skin-blemishes');
+
+Route::get('blog/vitiligo-treatment', function () {
+    return view('vitiligo-treatment');
+})->name('vitiligo-treatment');
+
 
 // Route::get('/saveItemRoute', [TodoListController::class, 'saveItem'])->name('saveItem');
 // Route::post('/contact/save', [ContactController::class, 'sendEmail'])->name('saveContact');

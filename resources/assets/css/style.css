@@ -7128,7 +7128,7 @@ label {
 .blog-details-area .blog-details-desc .card .content .title {
     position: relative;
     margin-bottom: 20px;
-    padding-bottom: 20px
+    padding-bottom: 0px
 }
 
 .blog-details-area .blog-details-desc .card .content .title span {
