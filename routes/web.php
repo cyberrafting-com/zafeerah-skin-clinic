@@ -179,7 +179,21 @@ Route::get('anti-angeing/ultherapy', function () {
     return view('ultherapy');
 })->name('ultherapy');
 
+Route::get('blog/blog-dermal-fillers-6-things-you-should-know​', function () {
+    return view('blog-derma-fillers1​');
+})->name('blog-derma-fillers');
 
+Route::get('blog/fungal-skin-infection-treatment-prevention', function () {
+    return view('blog2');
+})->name('blog2');
+
+Route::get('blog/blog-vitiligo-treatment', function () {
+    return view('blog4');
+})->name('blog4');
+
+Route::get('blog/blog-different-types-of-skin-blemishes-its-treatments', function () {
+    return view('blog3');
+})->name('blog3');
 
 // Route::get('/saveItemRoute', [TodoListController::class, 'saveItem'])->name('saveItem');
 // Route::post('/contact/save', [ContactController::class, 'sendEmail'])->name('saveContact');
