@@ -182,8 +182,7 @@
                             <p class="text">At Zafeerah Skin Clinic, we understand the impact that vitiligo can have on your confidence and well-being. That's why we're dedicated to providing comprehensive vitiligo treatment options to help you achieve clearer, more even-toned skin. Our team of experienced dermatologists will work closely with you to develop a customized treatment plan tailored to your unique needs and goals. Don't let vitiligo hold you back any longer—schedule a consultation with Zafeerah Skin Clinic today and take the first step towards healthier, more vibrant skin.
 
                             </p>
-                     
-                           
+                                               
                             {{-- <hr> --}}
                          
                             
