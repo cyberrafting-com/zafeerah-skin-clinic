@@ -202,3 +202,4 @@ Route::get('blog/vitiligo-treatment', function () {
 // Route::get('/admission',[ContactController::class, 'bookAppointment'])->name('admission');
 // Route::get('/contact-us', [ContactController::class, 'viewForm'])->name('contact');
 // Route::post('/contact/save', [ContactController::class, 'sendEmail'])->name('saveContact');
+
