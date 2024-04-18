@@ -10,12 +10,10 @@
             <div class="page-title-content">
                 <h1>Super Specialty Dermatology
 
-
                 </h1>
                 <ul>
                     <li class="item"><a href="{{ route('home') }}">Home</a></li>
                     <li class="item active"><span></span>Super Specialty Dermatology
-
 
                     </li>
                 </ul>
@@ -29,7 +27,7 @@
     <div class="service-details-area pt-100 pb-70">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-12">
+                <div class="col-lg-3 col-md-12 d-none d-sm-none d-md-block d-lg-block d-xl-block">
                     @include('includes.skin-treatment')
                 </div>
                 <div class="col-lg-9 col-md-12">
@@ -232,6 +230,9 @@
 
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                        @include('includes.skin-treatment')
                     </div>
                 </div>
             </div>

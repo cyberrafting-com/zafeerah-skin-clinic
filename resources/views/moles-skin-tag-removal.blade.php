@@ -8,12 +8,14 @@
     <div class="page-title-area">
         <div class="container">
             <div class="page-title-content">
-                <h1>Laser Hair Removal
+                <h1>Moles and Skin Tags Removal
+
 
                 </h1>
                 <ul>
                     <li class="item"><a href="{{ route('home') }}">Home</a></li>
-                    <li class="item active"><span></span>Laser Hair Removal
+                    <li class="item active"><span></span>Moles and Skin Tags Removal
+
 
                     </li>
                 </ul>
@@ -27,82 +29,102 @@
     <div class="service-details-area pt-100 pb-70">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-12 d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                <div class="col-lg-3 col-md-12 d-sm-none d-md-block d-lg-block d-xl-block">
                     @include('includes.cosmetic-dermatology')
                 </div>
                 <div class="col-lg-9 col-md-12">
                     <div class="service-details-desc mb-30">
                         <div class="card">
                             <div class="image">
-                                <img src="{{ asset('/resources/assets/images/service/laser-hair-removal.png') }}"
+                                <img src="{{ asset('/resources/assets/images/service/moles-and-skintag-removal.jpg') }}"
                                     alt="laser-hair-removal">
                             </div>
                             <div class="content">
                                 <h2 class="title">
-                                    Laser Hair Removal
-
-
-
+                                    Moles and Skin Tags Removal
                                     <span></span>
                                 </h2>
                                 <blockquote class="blockquote">
-                                    Laser hair removal has revolutionized the beauty industry, offering a long-term solution for unwanted hair growth. Laser hair removal clinics specialize in this advanced technique, providing clients with a safe and effective way to achieve smooth, hair-free skin. 
-                                    Zafeerah Skin Clinic has a dedicated laser hair removal department with highly experienced and trained technicians. We have the most sophisticated equipment, and we personalize the treatment according to your individual needs. 
-                                    
-                                    
-                                    
+                                    Moles and skin tags are common skin growths that many people experience at some point in
+                                    their lives. While they are usually harmless, they can sometimes cause discomfort or
+                                    self-consciousness, leading individuals to consider removal options.
+                                    We at Zafeerah Skin Clinic have specialists for moles and skin tag removal. We use the
+                                    most sophisticated techniques and equipment for removing moles and skin tags.
+
+
+
+
                                 </blockquote>
-                                <h5 class="service-title1 ">What is Laser Hair Removal?
-
-
+                                <h5 class="service-title1 ">What Are Moles and Skin Tags?
                                 </h5>
-                                <p>Laser hair removal is a technique that uses concentrated beams of light or laser to target and damage hair follicles, preventing future hair growth. This technique is highly precise and can be applied to various areas of the body, including the face, legs, underarms, bikini line, and more. Laser hair removal clinics offer professional services using FDA-approved laser devices to ensure optimal results.
-                                </p>                              
-
-                                <h5 class="service-title1 sep">Role of Laser Hair Removal Clinics
-
-                                </h5>
-
-                                <p class="text">The primary role of laser hair removal clinics is to provide clients with a safe, efficient, and long-lasting solution for unwanted hair. These clinics employ trained professionals who understand the nuances of different skin types and hair colors, ensuring personalized treatment plans for each client. Laser hair removal clinics play a crucial role in enhancing confidence, convenience, and overall satisfaction with one's appearance.
+                                <p>Moles are groups of pigmented cells that are seen as small, dark spots on the skin. They
+                                    may vary in size, shape, and color, ranging from tan to brown to black. Moles are
+                                    typically harmless but should be monitored for changes in size, shape, or color, as
+                                    these could indicate skin cancer.
 
                                 </p>
-                                <h5 class="service-title1 sep">How Does the Technique Work?
-
-                                </h5>
-
-                                <p class="text">Laser hair removal works by eliminating the pigment in hair follicles. The laser produces a certain wavelength of light that is absorbed by the melanin in the hair, heating up and damaging the follicle without harming the surrounding skin. Over time, this process inhibits hair growth, leading to smoother skin with reduced hair density.The technique typically involves multiple sessions spaced several weeks apart to target hair in different growth cycles effectively. Clients may experience a gradual reduction in hair growth with each session, eventually achieving significant hair reduction or even permanent hair removal in treated areas.
-
-
+                                <p>Skin tags, on the other hand, are small, soft growths that protrude from the skin. They
+                                    are often flesh-colored or slightly darker and are connected to the skin by a thin
+                                    stalk. Skin tags are benign and commonly occur in areas where the skin rubs against
+                                    itself, such as the neck, underarms, or groin.
                                 </p>
-                              
 
-
-                                <h5 class="service-title1 sep">Advantages of Laser Hair Removal Technique
-
-
+                                <h5 class="service-title1 sep">How the Removal Techniques Work
                                 </h5>
-                                                          
+
+                                <p class="text">Several techniques are available for removing moles and skin tags,
+                                    including:
+                                </p>
                                 <ul class="service-ul sep">
                                     <li>
-                                      Laser hair removal targets hair follicles precisely, minimizing damage to surrounding skin and ensuring effective hair reduction.
+                                        <strong>Excision: </strong> This involves cutting the mole or skin tag off with a
+                                        scalpel. Before the procedure, the area is typically numbed with a local anesthetic.
+                                        Stitches may be required for larger moles or skin tags.
                                     </li>
                                     <li>
-                                        Laser hair removal offers long-lasting results, with many clients experiencing permanent hair reduction over time.
+                                        <strong>Cauterization:</strong> In this method, the mole or skin tag is burned off
+                                        using a special tool that generates heat. Cauterization helps seal the wound,
+                                        reducing the risk of bleeding and infection.
                                     </li>
                                     <li>
-                                      Laser hair removal can be used for many body areas, making it a versatile option for both men and women.
+                                        <strong>Cryotherapy:</strong> Cryotherapy involves freezing the mole or skin tag
+                                        with liquid nitrogen. This causes the growth to blister and eventually fall off.
+                                        Multiple sessions may be needed for complete removal.
                                     </li>
                                     <li>
-                                     Treatment sessions are typically quick, depending on the size of the treatment area, making laser hair removal a convenient option for busy individuals.
-                                    </li>
-                                    <li>
-                                   Reduced Ingrown Hairs: By targeting hair follicles at the root, laser hair removal helps reduce the occurrence of ingrown hairs, leading to smoother and healthier skin.
+                                        <strong>Laser Therapy:</strong> Laser treatment uses focused light to target and
+                                        destroy the cells in the mole or skin tag. It is a precise method that may require
+                                        multiple sessions for optimal results.
                                     </li>
 
-                                </ul>                               
+                                </ul>
+
+                                <h5 class="service-title1 sep">Advantages of the Removal Techniques
+                                </h5>
+
+                                <p class="text">The removal of moles and skin tags offers several advantages, including:
+                                </p>
+                                <ul class="service-ul sep">
+                                    <li>
+                                        <strong>Improved Appearance: </strong>Removing unsightly moles and skin tags can boost self-confidence and improve overall appearance, especially if the growths are in visible or sensitive areas.
+                                    </li>
+                                    <li>
+                                        <strong>Relief from Discomfort:</strong> Skin tags that rub against clothing or jewellery can cause irritation and discomfort. Removing them can alleviate these issues.
+                                    </li>
+                                    <li>
+                                        <strong>Early Detection of Abnormalities: </strong> Regularly monitoring moles for changes and having suspicious moles evaluated by a dermatologist during the removal process can aid in the early detection of skin cancer.
+                                    </li>
+                                    <li>
+                                        <strong>Quick and Minimally Invasive: </strong> Many removal techniques are quick, outpatient procedures that require minimal recovery time, allowing patients to resume their daily activities shortly after treatment.
+                                    </li>
+
+                                </ul>
+
+
+
 
                                 <div class="faq">
-                                    <h5>FAQs About Laser Hair Removal
+                                    <h5>FAQs about Moles and Skin Tag Remova l
 
 
                                     </h5>
@@ -114,14 +136,14 @@
                                                         <h4 class="panel-title">
                                                             <a class="collapsed" data-bs-toggle="collapse" href="#collapse1"
                                                                 aria-expanded="false">
-                                                              Is laser hair removal safe for every skin types?
+                                                             Is mole removal painful ?
                                                             </a>
                                                         </h4>
                                                     </div>
                                                     <div id="collapse1" class="panel-collapse active collapse"
                                                         data-bs-parent="#accordion" style="">
                                                         <div class="panel-body">
-                                                            <p>Modern laser technology has made significant advancements, making laser hair removal safe and effective for most skin types. 
+                                                            <p>The level of discomfort during mole removal depends on the technique used and individual pain tolerance. Local anesthesia is often administered to minimize pain.
 
                                                             </p>
                                                         </div>
@@ -132,7 +154,7 @@
                                                         <h4 class="panel-title">
                                                             <a class="collapsed" data-bs-toggle="collapse" href="#collapse2"
                                                                 aria-expanded="false">
-                                                            Does laser hair removal hurt?
+                                                             Will moles grow back after removal ?
 
                                                             </a>
                                                         </h4>
@@ -140,7 +162,7 @@
                                                     <div id="collapse2" class="panel-collapse collapse"
                                                         data-bs-parent="#accordion" style="">
                                                         <div class="panel-body">
-                                                            <p>While laser hair removal may cause mild discomfort, most individuals describe it as tolerable and less painful than waxing or threading. 
+                                                            <p>While moles that are completely removed typically do not grow back, new moles may appear over time due to sun exposure and genetics.
 
                                                             </p>
                                                         </div>
@@ -151,14 +173,14 @@
                                                         <h4 class="panel-title">
                                                             <a class="collapsed" data-bs-toggle="collapse" href="#collapse3"
                                                                 aria-expanded="false">
-                                                           How many sessions are needed for optimal results?
+                                                              Are there any risks associated with mole and skin tag removal ?
                                                             </a>
                                                         </h4>
                                                     </div>
                                                     <div id="collapse3" class="panel-collapse collapse"
                                                         data-bs-parent="#accordion" style="">
                                                         <div class="panel-body">
-                                                            <p>The number of sessions required varies depending on factors like hair color, skin type, and the area being treated. On average, clients may need 6-8 sessions spaced several weeks apart to achieve optimal hair reduction.
+                                                            <p>Risks of mole and skin tag removal include infection, scarring, and changes in skin pigmentation. It's crucial to follow post-treatment care instructions and seek professional guidance.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -168,7 +190,7 @@
                                                         <h4 class="panel-title">
                                                             <a class="collapsed" data-bs-toggle="collapse" href="#collapse4"
                                                                 aria-expanded="false">
-                                                              Is laser hair removal permanent?
+                                                               Can skin tags be removed at home ?
 
                                                             </a>
                                                         </h4>
@@ -176,7 +198,7 @@
                                                     <div id="collapse4" class="panel-collapse collapse"
                                                         data-bs-parent="#accordion" style="">
                                                         <div class="panel-body">
-                                                            <p>Laser hair removal can lead to hair reduction permanently, but some clients may experience regrowth over time. Maintenance sessions may be required to target any remaining hair and maintain smooth results.
+                                                            <p>While some home remedies claim to remove skin tags, it's safer to have them removed by a healthcare professional to avoid complications.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -189,9 +211,9 @@
 
                                 <h5 class="service-title1 sep">Conclusion
                                 </h5>
-                                <p class="text">Laser hair removal clinics offer a modern and effective solution for individuals seeking to eliminate unwanted hair and achieve smoother skin. With its precision, long-lasting results, and versatility, laser hair removal has become a popular choice in the realm of cosmetic treatments. By addressing common concerns and providing personalized care, Zafeerah Skin Clinic's laser hair removal clinics empower clients to embrace their desired aesthetic with confidence and convenience.
+                                <p class="text">Mole and skin tag removal techniques offer safe and effective options for addressing these common skin growths. Consulting with our dermatologist can help determine the most suitable removal method based on individual needs and preferences. Whether for cosmetic reasons or to alleviate discomfort, removing moles and skin tags can enhance both physical and emotional well-being.
 
- 
+
 
                                 </p>
 

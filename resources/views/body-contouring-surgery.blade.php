@@ -31,7 +31,7 @@
 <div class="service-details-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-12">
+            <div class="col-lg-3 col-md-12 d-none d-sm-none d-md-block d-lg-block d-xl-block">
                 @include('includes.body-treatment')
             </div>
             <div class="col-lg-9 col-md-12">
@@ -197,6 +197,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-3 col-md-12 d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                @include('includes.body-treatment')
             </div>
         </div>
     </div>

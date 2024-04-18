@@ -20,21 +20,21 @@
         </div>
     </div>
     <div class="bg-image">
-        <img src="{{ asset('/resources/assets/images/breadscrumb-img.png') }}" alt="computerized-hair-analysis-IMG">
+        <img src="{{ asset('/resources/assets/images/breadscrumb-img.png') }}" alt="breadscrumb-img">
     </div>
 </div>
 
 <div class="service-details-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-12">
+            <div class="col-lg-3 col-md-12 d-none d-sm-none d-md-block d-lg-block d-xl-block">
                 @include('includes.body-treatment')
             </div>
             <div class="col-lg-9 col-md-12">
                 <div class="service-details-desc mb-30">
                     <div class="card">
                         <div class="image">
-                            <img src="{{ asset('/resources/assets/images/service/body-contouring-surgery.png') }}" alt="body-contouring-surgery">
+                            <img src="{{ asset('/resources/assets/images/service/fat-transfer-and-grafting.jpg') }}" alt="fat-transfer-and-grafting">
                         </div>
                         <div class="content">
                             <h2 class="title">
@@ -230,6 +230,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-3 col-md-12 d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                @include('includes.body-treatment')
             </div>
         </div>
     </div>

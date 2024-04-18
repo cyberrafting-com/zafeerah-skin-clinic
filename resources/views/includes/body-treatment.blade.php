@@ -3,24 +3,24 @@
     <div class="widget widget-category mb-30">
         <h3 class="title">Body Services</h3>
         <ul class="nav-list">
-            <li class="active">
+            <li class="">
                 <a href="{{ route('body-shaping-sculpting-treatment')}}">Body Shaping & Sculpting
                 </a>
             </li>
             <li>
-                <a href="#">Liposuction
+                <a href="{{ route('liposuction')}}">Liposuction
                 </a>
             </li>
             <li>
-                <a href="#">Body Contouring Surgery
+                <a href="{{ route('body-contouring-surgery')}}">Body Contouring Surgery
                 </a>
             </li>
             <li>
-                <a href="#">Fat Transfer & Grafting Surgery
+                <a href="{{ route('fat-transfer-grafting-surgery')}}">Fat Transfer & Grafting Surgery
                 </a>
             </li>
             <li>
-                <a href="#">Laser Stretch Marks Removal
+                <a href="{{ route('stretch-mark-removal')}}">Laser Stretch Marks Removal
                 </a>
             </li>
            
@@ -29,26 +29,24 @@
     <div class="widget widget-category mb-30">
         <h3 class="title">Other Service Category</h3>
         <ul class="nav-list">
-            <li class="active">
+            <li class="">
                 <a href="{{ route('computerized-hair-analysis')}}">Hair</a>
             </li>
             <li >
-                <a href="#">Eye</a>
+                <a href="{{ route('dark-circle-treatment')}}">Eye</a>
             </li>
             <li>
-                <a href="#">Body</a>
+                <a href="{{ route('body-shaping-sculpting-treatment')}}">Body</a>
+            </li>
+           
+            <li>
+                <a href="{{ route('laser-hair-removal')}}">Cosmetic Dermatology</a>
             </li>
             <li>
-                <a href="#">Mesotherapy</a>
+                <a href="{{ route('super-specialty-dermatology')}}">Skin</a>
             </li>
             <li>
-                <a href="#">Cosmetic Dermatology</a>
-            </li>
-            <li>
-                <a href="#">Skin</a>
-            </li>
-            <li>
-                <a href="#">Anti-Ageing</a>
+                <a href="{{ route('3d-face-lift')}}">Anti-Ageing</a>
             </li>
           
         </ul>

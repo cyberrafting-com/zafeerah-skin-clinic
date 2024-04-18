@@ -123,16 +123,61 @@ Route::get('body-treatment/fat-transfer-grafting-surgery', function () {
     return view('fat-transfer-grafting-surgery');
 })->name('fat-transfer-grafting-surgery');
 
-
+Route::get('body-treatment/stretch-mark-removal', function () {
+    return view('stretch-mark-removal');
+})->name('stretch-mark-removal');
 
 Route::get('cosmetic-dermatology-treatment/laser-hair-removal', function () {
     return view('laser-hair-removal');
 })->name('laser-hair-removal');
 
+Route::get('cosmetic-dermatology-treatment/skin-brightening', function () {
+    return view('skin-brightening');
+})->name('skin-brightening');
+
+Route::get('cosmetic-dermatology-treatment/laser-tattoo-removal', function () {
+    return view('laser-tattoo-removal');
+})->name('laser-tattoo-removal');
+
+Route::get('cosmetic-dermatology-treatment/moles-skin-tag-removal', function () {
+    return view('moles-skin-tag-removal');
+})->name('moles-skin-tag-removal');
+
+Route::get('cosmetic-dermatology-treatment/botox', function () {
+    return view('botox');
+})->name('botox');
+
 Route::get('skin-treatment/super-specialty-dermatologyt', function () {
     return view('super-specialty-dermatology');
 })->name('super-specialty-dermatology');
 
+Route::get('skin-treatment/vitiligo', function () {
+    return view('vitiligo');
+})->name('vitiligo');
+
+Route::get('skin-treatment/acne-scars-pigmentation', function () {
+    return view('acne-scars-pigmentation');
+})->name('acne-scars-pigmentation');
+
+Route::get('skin-treatment/warts', function () {
+    return view('warts');
+})->name('warts');
+
+Route::get('anti-angeing/3d-face-lift', function () {
+    return view('3d-face-lift');
+})->name('3d-face-lift');
+
+Route::get('anti-angeing/skin-tightening-medifacial', function () {
+    return view('skin-tightening-medifacial');
+})->name('skin-tightening-medifacial');
+
+Route::get('anti-angeing/hifu', function () {
+    return view('hifu');
+})->name('hifu');
+
+Route::get('anti-angeing/ultherapy', function () {
+    return view('ultherapy');
+})->name('ultherapy');
 
 
 

@@ -310,7 +310,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Computerized Hair Analysis</a></h3>
+                                    <h3 class="title"><a href="{{ route('computerized-hair-analysis')}}">Computerized Hair Analysis</a></h3>
                                     <!-- {{-- <p>Computerized hair analysis is a sophisticated method used to assess the health and condition of hair and scalp.</p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -324,7 +324,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Mesotherapy</a></h3>
+                                    <h3 class="title"><a href="{{ route('hair-mesotherapy')}}">Mesotherapy</a></h3>
                                     <!-- {{-- <p>Mesotherapy has gained popularity as a minimally invasive cosmetic procedure aimed at rejuvenating the skin, promoting hair growth, and addressing various aesthetic concerns. 
                                     </p> --}} -->
                                     <!-- {{-- <a href="#"> <span class="price">Know More</span></a> --}} -->
@@ -340,7 +340,7 @@
                                    
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Laser Hair Grow(prp)</a></h3>
+                                    <h3 class="title"><a href="{{ route('laser-hair-grow')}}">Laser Hair Grow(prp)</a></h3>
                                     <!-- {{-- <p>Laser hair growth therapy, also known as low-level laser therapy (LLLT) or photobiomodulation therapy, is a non-invasive procedure aimed at stimulating hair follicles, promoting hair regrowth, and improving overall hair health.</p> --}} -->
                                     <!-- {{-- <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -361,7 +361,7 @@
                                     {{-- --}}
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Dark Circle Reduction</a></h3>
+                                    <h3 class="title"><a href="{{ route('dark-circle-treatment')}}">Dark Circle Reduction</a></h3>
                                     {{-- <p>Dark circle reduction refers to a range of cosmetic treatments and procedures aimed at reducing the appearance of dark circles under the eyes. </p>
                                     <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
@@ -375,7 +375,7 @@
                                     
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Laser Eye Wrinkle Reduction</a></h3>
+                                    <h3 class="title"><a href="{{ route('eye-wrinkle-treatment')}}">Laser Eye Wrinkle Reduction</a></h3>
                                     <!-- {{-- <p>Laser Eye Wrinkle Reduction is a cosmetic technique that utilizes advanced laser technology to target and reduce wrinkles, fine lines, and various other symptoms of ageing around the eyes.</p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -389,7 +389,7 @@
                                    
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Blepharoplasty (Eyelid Surgery)</a></h3>
+                                    <h3 class="title"><a href="{{ route('blepharoplasty')}}">Blepharoplasty (Eyelid Surgery)</a></h3>
                                     <!-- {{-- <p>Blepharoplasty is a surgical procedure performed to enrich the appearance of the eyelids by removing all the unwanted skin, muscle, and fat. It can be performed on the upper eyelids, lower eyelids, or both, based on the patient's specific needs and goals. </p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -410,7 +410,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Body Shaping & Sculpting</a></h3>
+                                    <h3 class="title"><a href="{{ route('body-shaping-sculpting-treatment')}}">Body Shaping & Sculpting</a></h3>
                                     {{-- <p>Body shaping and sculpting refer to a range of techniques and procedures designed to enhance and contour the body's appearance. </p>
                                     <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
@@ -437,7 +437,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Body Contouring</a></h3>
+                                    <h3 class="title"><a href="{{ route('body-contouring-surgery')}}">Body Contouring</a></h3>
                                     <!-- {{-- <p>Body contouring encompasses a variety of surgical and non-surgical procedures to reshape and enhance the body's contours. </p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -464,7 +464,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Stretch Mark Removal</a></h3>
+                                    <h3 class="title"><a href="{{ route('stretch-mark-removal')}}">Stretch Mark Removal</a></h3>
                                     <!-- {{-- <p>Stretch marks are a type of scarring that occurs when the skin is stretched suddenly due to factors such as pregnancy, rapid weight gain or loss, puberty, or certain medical conditions. </p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -498,7 +498,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Laser Hair Removal Clinic</a></h3>
+                                    <h3 class="title"><a href="{{ route('laser-hair-removal')}}">Laser Hair Removal Clinic</a></h3>
                                     <!-- {{-- <p>Laser hair removal is a technique that uses concentrated beams of light or laser to target and damage hair follicles, preventing future hair growth.</p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -512,7 +512,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Skin Brightening</a></h3>
+                                    <h3 class="title"><a href="{{ route('skin-brightening')}}">Skin Brightening</a></h3>
                                     <!-- {{-- <p>Skin brightening is a cosmetic technique designed to lighten and even out skin tone, reduce hyperpigmentation, and enhance overall radiance. </p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -526,7 +526,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Botox</a></h3>
+                                    <h3 class="title"><a href="{{ route('botox')}}">Botox</a></h3>
                                     <!-- {{-- <p>Botox is a neurotoxic compound produced by the bacterium Clostridium botulinum. While this may sound alarming, Botox is used in minuscule amounts for medical and cosmetic purposes.</p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -548,7 +548,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Vitiligo Clinic</a></h3>
+                                    <h3 class="title"><a href="{{ route('vitiligo')}}">Vitiligo Clinic</a></h3>
                                     {{-- <p></p>
                                     <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
@@ -562,7 +562,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Acne Scars & Pigmentation Clinic</a></h3>
+                                    <h3 class="title"><a href="{{ route('acne-scars-pigmentation')}}">Acne Scars & Pigmentation Clinic</a></h3>
                                     {{-- <p></p>
                                     <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
@@ -575,7 +575,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Warts</a></h3>
+                                    <h3 class="title"><a href="{{ route('warts')}}">Warts</a></h3>
                                     {{-- <p></p>
                                     <a href="#"> <span class="price">Know More</span></a> --}}
                                 </div>
@@ -583,7 +583,7 @@
                         </div>
                         
                       
-                        <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
+                        <span class="view-span"> <a href="{{ route('vitiligo')}}" class="view-btn"> View More</a></span>
                     </div>
 
                 </div>
@@ -598,7 +598,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Skin Tightening Medifacial</a></h3>
+                                    <h3 class="title"><a href="{{ route('skin-tightening-medifacial')}}">Skin Tightening Medifacial</a></h3>
                                     <!-- {{-- <p></p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -611,7 +611,7 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">HIFU</a></h3>
+                                    <h3 class="title"><a href="{{ route('hifu')}}">HIFU</a></h3>
                                     <!-- {{-- <p></p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
@@ -624,14 +624,14 @@
 
                                 </div>
                                 <div class="content">
-                                    <h3 class="title"><a href="#">Ultherapy</a></h3>
+                                    <h3 class="title"><a href="{{ route('ultherapy')}}">Ultherapy</a></h3>
                                     <!-- {{-- <p></p>
                                     <a href="#"> <span class="price">Know More</span></a> --}} -->
                                 </div>
                             </div>
                         </div>
                        
-                        <span class="view-span"> <a href="#" class="view-btn"> View More</a></span>
+                        <span class="view-span"> <a href="{{ route('ultherapy')}}" class="view-btn"> View More</a></span>
                     </div>
 
                 </div>

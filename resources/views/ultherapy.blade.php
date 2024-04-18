@@ -8,19 +8,17 @@
     <div class="page-title-area">
         <div class="container">
             <div class="page-title-content">
-                <h1>Laser Hair Removal
-
-                </h1>
+                <h1>Ultherapy</h1>
                 <ul>
                     <li class="item"><a href="{{ route('home') }}">Home</a></li>
-                    <li class="item active"><span></span>Laser Hair Removal
+                    <li class="item active"><span></span>Ultherapy
 
                     </li>
                 </ul>
             </div>
         </div>
         <div class="bg-image">
-            <img src="{{ asset('/resources/assets/images/breadscrumb-img.png') }}" alt="breadscrumb-img">
+            <img src="{{ asset('/resources/assets/images/breadscrumb-img.png') }}" alt="computerized-hair-analysis-IMG">
         </div>
     </div>
 
@@ -28,81 +26,103 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-12 d-none d-sm-none d-md-block d-lg-block d-xl-block">
-                    @include('includes.cosmetic-dermatology')
+                    @include('includes.anti-angeing')
                 </div>
                 <div class="col-lg-9 col-md-12">
                     <div class="service-details-desc mb-30">
                         <div class="card">
                             <div class="image">
-                                <img src="{{ asset('/resources/assets/images/service/laser-hair-removal.png') }}"
-                                    alt="laser-hair-removal">
+                                <img src="{{ asset('/resources/assets/images/service/ultherapy.jpg') }}" alt="ultherapy">
                             </div>
                             <div class="content">
                                 <h2 class="title">
-                                    Laser Hair Removal
-
-
-
+                                    Ultherapy
                                     <span></span>
                                 </h2>
                                 <blockquote class="blockquote">
-                                    Laser hair removal has revolutionized the beauty industry, offering a long-term solution for unwanted hair growth. Laser hair removal clinics specialize in this advanced technique, providing clients with a safe and effective way to achieve smooth, hair-free skin. 
-                                    Zafeerah Skin Clinic has a dedicated laser hair removal department with highly experienced and trained technicians. We have the most sophisticated equipment, and we personalize the treatment according to your individual needs. 
-                                    
-                                    
-                                    
+                                    In the ever-evolving world of cosmetic procedures, Ultherapy has emerged as a
+                                    groundbreaking technique for skin tightening and rejuvenation. This non-invasive
+                                    procedure has gained popularity for its ability to tighten the skin without surgery.
+                                    Zafeerah Skin Clinic specializes in anti-ageing treatments, and Ultherapy is one of the
+                                    primary treatments. We have technicians specialized in Ultherapy. We have the most
+                                    advanced equipments for the treatments.
+
+
                                 </blockquote>
-                                <h5 class="service-title1 ">What is Laser Hair Removal?
-
-
-                                </h5>
-                                <p>Laser hair removal is a technique that uses concentrated beams of light or laser to target and damage hair follicles, preventing future hair growth. This technique is highly precise and can be applied to various areas of the body, including the face, legs, underarms, bikini line, and more. Laser hair removal clinics offer professional services using FDA-approved laser devices to ensure optimal results.
-                                </p>                              
-
-                                <h5 class="service-title1 sep">Role of Laser Hair Removal Clinics
+                                <h5 class="service-title1 ">What is Ultherapy?
 
                                 </h5>
 
-                                <p class="text">The primary role of laser hair removal clinics is to provide clients with a safe, efficient, and long-lasting solution for unwanted hair. These clinics employ trained professionals who understand the nuances of different skin types and hair colors, ensuring personalized treatment plans for each client. Laser hair removal clinics play a crucial role in enhancing confidence, convenience, and overall satisfaction with one's appearance.
-
+                                <p>Ultherapy is a non-surgical, non-invasive procedure designed to lift, tone, and tighten
+                                    loose or saggy skin on the face, neck, chin, and décolletage. Unlike traditional
+                                    facelift surgeries that involve incisions and downtime, Ultherapy uses ultrasound
+                                    technology to target deep layers of tissue, stimulating collagen production and
+                                    resulting in firmer, more youthful-looking skin.
                                 </p>
-                                <h5 class="service-title1 sep">How Does the Technique Work?
 
+                                <h5 class="service-title1 ">Role of Ultherapy
                                 </h5>
 
-                                <p class="text">Laser hair removal works by eliminating the pigment in hair follicles. The laser produces a certain wavelength of light that is absorbed by the melanin in the hair, heating up and damaging the follicle without harming the surrounding skin. Over time, this process inhibits hair growth, leading to smoother skin with reduced hair density.The technique typically involves multiple sessions spaced several weeks apart to target hair in different growth cycles effectively. Clients may experience a gradual reduction in hair growth with each session, eventually achieving significant hair reduction or even permanent hair removal in treated areas.
-
-
+                                <p>The primary role of Ultherapy is to address skin laxity and sagging, which are common
+                                    concerns associated with aging. By targeting the foundational layers of skin tissues,
+                                    Ultherapy promotes natural collagen production, leading to gradual improvements in skin
+                                    tightness and texture over time. This makes it an attractive option for individuals
+                                    looking to rejuvenate their skin appearance without undergoing surgery.
                                 </p>
-                              
 
 
-                                <h5 class="service-title1 sep">Advantages of Laser Hair Removal Technique
-
+                                <h5 class="service-title1 ">How Does the Technique Work?
 
                                 </h5>
-                                                          
+
                                 <ul class="service-ul sep">
                                     <li>
-                                      Laser hair removal targets hair follicles precisely, minimizing damage to surrounding skin and ensuring effective hair reduction.
+                                        Ultherapy works by focusing ultrasound energy to specific depths within the skin,
+                                        bypassing the surface layer without causing damage
                                     </li>
                                     <li>
-                                        Laser hair removal offers long-lasting results, with many clients experiencing permanent hair reduction over time.
+                                        This energy heats the targeted tissue, triggering a natural healing response that
+                                        stimulates collagen production.
                                     </li>
                                     <li>
-                                      Laser hair removal can be used for many body areas, making it a versatile option for both men and women.
+                                        The gradual increase in collagen helps to lift and tighten the skin, giving you a
+                                        more youthful and refreshed appearance.
                                     </li>
-                                    <li>
-                                     Treatment sessions are typically quick, depending on the size of the treatment area, making laser hair removal a convenient option for busy individuals.
-                                    </li>
-                                    <li>
-                                   Reduced Ingrown Hairs: By targeting hair follicles at the root, laser hair removal helps reduce the occurrence of ingrown hairs, leading to smoother and healthier skin.
+                                    <li>During the procedure, a trained healthcare professional uses a device to deliver
+                                        ultrasound energy to precise areas of the face, neck, or chest.</li>
+                                    <li>Patients might experience mild discomfort or a tingling sensation as the energy is
+                                        delivered, but the procedure is generally well-tolerated without the need for
+                                        anesthesia.</li>
+
+                                </ul>
+
+
+
+                                <h5 class="service-title1 sep">Advantages of Ultherapy
+
+                                </h5>
+
+
+                                <ul class="service-ul sep">
+
+
+                                    <li>Non-Invasive
+
                                     </li>
 
-                                </ul>                               
+                                    <li>Natural Results
 
+                                    </li>
+
+                                    <li> Ultherapy can be used to target various areas of the face and neck, including the
+                                        brow, cheeks, jawline, and décolletage.
+                                    </li>
+                                    <li>Long-Lasting Results
+                                    </li>
+
+                                </ul>
                                 <div class="faq">
-                                    <h5>FAQs About Laser Hair Removal
+                                    <h5>FAQs about Ultherapy
 
 
                                     </h5>
@@ -114,14 +134,16 @@
                                                         <h4 class="panel-title">
                                                             <a class="collapsed" data-bs-toggle="collapse" href="#collapse1"
                                                                 aria-expanded="false">
-                                                              Is laser hair removal safe for every skin types?
+                                                                Is Ultherapy painful?
                                                             </a>
                                                         </h4>
                                                     </div>
                                                     <div id="collapse1" class="panel-collapse active collapse"
                                                         data-bs-parent="#accordion" style="">
                                                         <div class="panel-body">
-                                                            <p>Modern laser technology has made significant advancements, making laser hair removal safe and effective for most skin types. 
+                                                            <p>While some patients may experience mild discomfort or a
+                                                                tingling sensation during the procedure, Ultherapy is
+                                                                generally well-tolerated.
 
                                                             </p>
                                                         </div>
@@ -132,15 +154,18 @@
                                                         <h4 class="panel-title">
                                                             <a class="collapsed" data-bs-toggle="collapse" href="#collapse2"
                                                                 aria-expanded="false">
-                                                            Does laser hair removal hurt?
-
+                                                                How long do Ultherapy results last?
                                                             </a>
                                                         </h4>
                                                     </div>
                                                     <div id="collapse2" class="panel-collapse collapse"
                                                         data-bs-parent="#accordion" style="">
                                                         <div class="panel-body">
-                                                            <p>While laser hair removal may cause mild discomfort, most individuals describe it as tolerable and less painful than waxing or threading. 
+                                                            <p>Results from Ultherapy can vary depending on individual
+                                                                factors such as age, skin condition, and lifestyle. Many
+                                                                patients enjoy results that last for a year or more, with
+                                                                some opting for maintenance sessions to prolong the
+                                                                benefits.
 
                                                             </p>
                                                         </div>
@@ -151,14 +176,16 @@
                                                         <h4 class="panel-title">
                                                             <a class="collapsed" data-bs-toggle="collapse" href="#collapse3"
                                                                 aria-expanded="false">
-                                                           How many sessions are needed for optimal results?
+                                                                Is there any recovery time after Ultherapy?
                                                             </a>
                                                         </h4>
                                                     </div>
                                                     <div id="collapse3" class="panel-collapse collapse"
                                                         data-bs-parent="#accordion" style="">
                                                         <div class="panel-body">
-                                                            <p>The number of sessions required varies depending on factors like hair color, skin type, and the area being treated. On average, clients may need 6-8 sessions spaced several weeks apart to achieve optimal hair reduction.
+                                                            <p>One of the advantages of Ultherapy is that there is minimal
+                                                                to no recovery time. Patients can typically get back to
+                                                                their regular activities immediately after the procedure.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -168,19 +195,21 @@
                                                         <h4 class="panel-title">
                                                             <a class="collapsed" data-bs-toggle="collapse" href="#collapse4"
                                                                 aria-expanded="false">
-                                                              Is laser hair removal permanent?
-
+                                                                Who is a good candidate for Ultherapy?
                                                             </a>
                                                         </h4>
                                                     </div>
                                                     <div id="collapse4" class="panel-collapse collapse"
                                                         data-bs-parent="#accordion" style="">
                                                         <div class="panel-body">
-                                                            <p>Laser hair removal can lead to hair reduction permanently, but some clients may experience regrowth over time. Maintenance sessions may be required to target any remaining hair and maintain smooth results.
+                                                            <p>Ideal candidates for Ultherapy are individuals with mild to
+                                                                moderate skin laxity who are seeking non-surgical skin
+                                                                tightening solutions.
                                                             </p>
                                                         </div>
                                                     </div>
                                                 </div>
+
 
                                             </div>
                                         </div>
@@ -189,19 +218,19 @@
 
                                 <h5 class="service-title1 sep">Conclusion
                                 </h5>
-                                <p class="text">Laser hair removal clinics offer a modern and effective solution for individuals seeking to eliminate unwanted hair and achieve smoother skin. With its precision, long-lasting results, and versatility, laser hair removal has become a popular choice in the realm of cosmetic treatments. By addressing common concerns and providing personalized care, Zafeerah Skin Clinic's laser hair removal clinics empower clients to embrace their desired aesthetic with confidence and convenience.
+                                <p class="text">Ultherapy offers a non-invasive and effective approach to skin tightening
+                                    and rejuvenation. With its ability to provide long-lasting results, it has become a
+                                    popular choice among those looking to enhance their appearance without undergoing
+                                    surgery.
 
- 
 
                                 </p>
-
-
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12 d-block d-sm-block d-md-none d-lg-none d-xl-none">
-                    @include('includes.cosmetic-dermatology')
+                    @include('includes.anti-angeing')
                 </div>
             </div>
         </div>
